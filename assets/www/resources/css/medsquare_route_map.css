@@ -1,0 +1,136 @@
+/* additional css rules for medsquare app main page*/
+
+.hide {
+	display:none;
+}
+
+.medsquare_route {
+	margin: 0px 15px 2px;
+}
+#googleroutemap .x-dock.x-sized > .x-dock-body {
+	background:#fff !important;
+}
+
+.route_top_panel {
+	background:#fff;
+	margin: 0px;
+	padding-bottom:2px;
+}
+.route_top_panel_inner {
+    left: 50%;
+    margin-left: -88px;
+}
+.route_button,.car_button,.bus_button,.walk_button,.cycle_button,.plane_button {
+	background: transparent url(../images/route_buttons.png) no-repeat center center;
+	border:0;
+	border-radius:0;
+	width: 35px;
+	float: left;
+	min-height: 35px;
+	padding: 0;
+}
+.route_button {
+    background-position: 5px 4px;
+}
+.car_button {
+    background-position: -51px 4px;
+}
+.bus_button {
+    background-position: -108px 4px;
+}
+.walk_button {
+    background-position: -166px 4px;
+}
+.cycle_button {
+    background-position: -222px 4px;
+}
+.plane_button {
+    background-position: -280px 4px;
+}
+
+.logo_panel {
+    background: #2c3e50;
+    margin: 0 15px;
+    padding: 2px;
+}
+.back_button {
+    border: 0;
+    border-radius: 0;
+    width: 58px;
+    font-size: 13px;
+    background:#192633;
+    margin-left: 21px;
+    color: #fff;
+    padding:8px 10px;
+    margin-top: 5px;
+    min-height: 10px;
+}
+.back_button_extra {
+    position: absolute;
+    top: 6px;
+    left: 1px;
+    content: '';
+    border-top: solid 17px transparent;
+    border-left: solid 8px transparent;
+    border-right: solid 15px #192633;
+    border-bottom: solid 17px transparent;
+}
+.logo_top {
+    width: 48px;
+    left: 50%;
+    margin-left: -24px;
+    margin-top: -33px;
+}
+
+
+@media all and (max-width: 315px) {
+	.logo_top {
+		margin-left: 0px;
+	}
+}
+
+@media all and (min-width: 315px) and (max-width: 355px) {
+	
+}
+
+@media all and (min-width: 355px) and (max-width: 395px) {
+	
+}
+
+@media all and (min-width: 395px) and (max-width: 475px) {
+
+}
+
+@media all and (min-width: 475px) and (max-width: 635px) {
+	
+	
+}
+
+@media all and (min-width: 635px) and (max-width: 715px) {
+	
+}
+
+@media all and (min-width: 715px) and (max-width: 795px) {
+	
+}
+
+@media all and (min-width: 796px) {
+	
+}
+
+.he_details_main {
+
+}
+.he_details_main .result {
+	background:#fff;
+	margin: 0px 7px;
+}
+.close_route {
+	color:#fff;
+	background:#455565;
+	border: 0;
+	border-radius: 0;
+	right: 15px;
+	padding: 0px 10px;
+	position: absolute;
+}

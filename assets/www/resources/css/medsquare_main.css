@@ -1,0 +1,115 @@
+/* additional css rules for medsquare app main page*/
+
+.buttonpanel {
+	
+}
+.menubutton {
+	width: 130px;
+	background: #ecf0f1;
+	border: 0;
+	border-radius: 0;
+	margin-top: 20px;
+	min-height: 60px;
+}
+
+
+@media all and (max-width: 315px) {
+	.buttonpanel {
+		left: 50%;
+		margin-left: -75px;
+	
+		height: 560px;
+}
+	.menubutton {
+		margin-left: 7px;
+	}	
+}
+
+@media all and (min-width: 315px) and (max-width: 355px) {
+	.buttonpanel {
+		left: 50%;
+		margin-left: -159px;
+	}
+	.menubutton {
+		margin-left: 21px;
+	
+}
+	.second {
+		margin-top: -60px;
+		margin-left: 168px;
+	}
+}
+
+@media all and (min-width: 355px) and (max-width: 395px) {
+	.buttonpanel {
+		left: 50%;
+		margin-left: -163px;
+	}
+	.menubutton {
+		margin-left: 21px;
+	}
+	.second {
+		margin-top: -60px;
+		margin-left: 170px;
+	}
+}
+
+@media all and (min-width: 395px) and (max-width: 475px) {
+	.buttonpanel {
+		left: 50%;
+		margin-left: -163px;
+	}
+	.menubutton {
+		margin-left: 21px;
+	}
+	.second {
+		margin-top: -60px;
+		margin-left: 168px;
+	}
+}
+
+@media all and (min-width: 475px) and (max-width: 715px) {
+	.buttonpanel {
+		left: 50%;
+		margin-left: -247px;
+    }
+	.menubutton {
+	    margin-left: 32px;
+	}
+	.second2 {
+	    margin-top: -60px;
+		
+	    margin-left: 180px;
+	}
+	.third {
+	    margin-top: -60px;
+		
+	    margin-left: 328px;
+	}
+	.secondmiddle {
+		margin-left: 180px;
+	}
+}
+
+@media all and (min-width: 716px) {
+	.buttonpanel {
+		left: 50%;
+		margin-left: -247px;
+    }
+	.menubutton {
+	    margin-left: 32px;
+	}
+	.second2 {
+	    margin-top: -60px;
+		
+	    margin-left: 180px;
+	}
+	.third {
+	    margin-top: -60px;
+		
+	    margin-left: 328px;
+	}
+	.secondmiddle {
+		margin-left: 180px;
+	}
+}

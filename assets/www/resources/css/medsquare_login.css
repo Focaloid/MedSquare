@@ -1,0 +1,440 @@
+/* additional css rules for medsquare app login page*/
+
+.blue_text {
+	color:#2c3e50;
+}
+.wight_normal {
+	font-weight:normal;
+	font-size: 12px;
+}
+.logo {
+    margin-top: 10px;
+}
+.fbbutton {
+    margin-top: 20px;
+    border-radius: 0;
+    background: #5473a2;
+    color: #fff;
+    border: 0 none;
+    max-width: 393px;
+    left: 50%;
+    margin-left: -196px;
+    padding: 8px;
+}
+.signin {
+    font-weight: normal;
+    font-size: 20px;
+}
+.facebook {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.or {
+    position: absolute;
+    margin-top: -16px;
+    left: 50%;
+    margin-left: -20px;
+    background: #ebedee;
+    border-radius: 20px;
+    padding: 6px 5px;
+}
+#or {
+	margin-top: 30px;
+	font-size: 18px;
+	border: 1px solid #ebedee;
+	text-align: center;
+	height: 1px;
+}
+
+#logininputemail {
+    position: absolute;
+    margin-top: 30px;
+    max-width: 393px;
+    width: 100%;
+    left: 50%;
+    margin-left: -196px;
+}
+#logininputpass {
+    position: absolute;
+    margin-top: 75px;
+    max-width: 393px;
+    width: 100%;
+    left: 50%;
+    margin-left: -196px;
+}
+.icons {
+    left: 50%;
+    margin-left: 165px;
+    margin-top: 42px;
+    width: 22px;
+}
+.remember_panel {
+    left: 50%;
+    margin-left: -115px;
+}
+.remember_check {
+	max-width: 14px;
+    
+	min-height: 14px;
+    
+	margin-top: 14px;
+	background: #ecf0f1;
+	margin-left: 8px;
+}
+.remember_check_text {
+	color: rgb(44, 62, 80);
+	font-size: 12px;
+    
+	margin-top: -16px;
+	margin-left: 30px;
+}
+#forgetpass {
+    text-align: center;
+    margin-top: -21px;
+    left: 50%;
+    margin-left: 0px;
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+    font-size: 16px;
+    font-weight: normal;
+    width: 115px;
+    padding: 0;
+}
+.loginbutton {
+	max-width:257px;
+	margin-top: 10px;
+	border-radius: 0;
+	background: #1abc9c;
+	color: #fff;
+	border: 0 none;
+	left: 50%;
+	margin-left: -125px;
+	font-size: 20px;
+}
+
+.establishment {
+	float:left;
+	background: url(../images/ribbon_free.png) no-repeat center;
+	background-position: -32px;
+	max-width: 380px;
+	width: 100%;
+	color: #fff;
+	margin-top: 15px;
+	margin-left: 20px;
+	border-radius: 0;
+	border: 0;  
+	font-size: 18px;
+	font-weight: normal;
+	height: 47px;
+}
+.contactus {
+	float:left;
+	background: url(../images/ribbon.png) no-repeat center;
+	max-width: 380px;
+	width: 100%;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 0;
+	border: 0;  
+	font-size: 18px;
+	font-weight: normal;
+	text-align:center;
+	height: 47px;
+	margin-bottom: 20px;
+}
+
+.donthave {
+    text-align: center;
+    font-size: 11px;
+    left: 50%;
+    margin-left: -101px;
+    margin-top: 10px;
+}
+.donthave_label {
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.createnew {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: #5473a2;
+    text-decoration: underline;
+    float: left;
+    padding: 0;
+}
+#createnew .x-button-label {
+    font-weight: normal;
+}
+
+@media all and (max-width: 315px) {
+	.fbbutton {
+		max-width: 215px;
+		left: 50%;
+		margin-left: -108px;
+	}
+	
+	#logininputemail {
+		max-width: 215px;
+		width: 100%;
+		margin-left: -107px;
+	}
+	#logininputpass {
+		max-width: 215px;
+		width: 100%;
+		margin-left: -107px;
+	}
+	
+	.icons {
+		margin-left: 80px;
+	}
+	.remember_panel {
+		margin-left: -76px;
+	}
+	#forgetpass {
+		margin-top: 0px;
+		margin-left: -68px;
+	}
+	.loginbutton {
+		max-width: 215px;
+		margin-left: -106px;
+	}
+	.establishment {
+		max-width: 216px;
+		margin-left: 14px;
+		background-position: -196px;
+		clear: both;
+	}
+	
+	.contactus {
+		max-width: 216px;  
+		margin-left: 14px;
+	}
+	.donthave {
+		margin-left: -112px;
+	}
+	.donthave_label {
+		margin-left: 57px;
+	}
+	.createnew {
+		clear: both;
+		margin-left: 70px;
+	}
+	
+	.establishment .x-button-label {
+		width: 190px;
+		flex: none;
+		white-space: normal;
+	}
+	.fbbutton .x-button-label {
+		width: 190px;
+		flex: none;
+		white-space: normal;
+	}
+}
+
+@media all and (min-width: 315px) and (max-width: 355px) {
+	.fbbutton {
+		max-width: 294px;
+		left: 50%;
+		margin-left: -147px;
+	}
+	
+	#logininputemail {
+		max-width: 292px;
+		width: 100%;
+		margin-left: -146px;
+	}
+	#logininputpass {
+		max-width: 292px;
+		width: 100%;
+		margin-left: -146px;
+	}
+	
+	.icons {
+		margin-left: 117px;
+	}
+	.remember_panel {
+		margin-left: -62px;
+	}
+	#forgetpass {
+		margin-top: 0px;
+		margin-left: -58px;
+	}
+	.loginbutton {
+		max-width: 215px;
+		margin-left: -107px;
+	}
+
+	.establishment {
+		max-width: 294px;
+		margin-left: 15px;  
+		background-position: -119px;
+		padding-right: 20px;
+	}
+	.contactus {
+		max-width: 294px;  
+		margin-left: 14px;
+	}
+}
+
+@media all and (min-width: 355px) and (max-width: 395px) {
+	.fbbutton {
+		max-width: 329px;
+		left: 50%;
+		margin-left: -164px;
+	}
+	
+	#logininputemail {
+		max-width: 329px;
+		width: 100%;
+		margin-left: -164px;
+	}
+	#logininputpass {
+		max-width: 329px;
+		width: 100%;
+		margin-left: -164px;
+	}
+	
+	.icons {
+		margin-left: 138px;
+	}
+	.remember_panel {
+		left: 50%;
+		margin-left: -114px;
+	}
+	#forgetpass {
+	}
+	.loginbutton {
+		max-width: 215px;
+		margin-left: -107px;
+	}
+
+	.establishment {
+		max-width: 331px;
+		margin-left: 15px;
+		background-position: -82px;
+		padding-right: 20px;
+	}
+	.contactus {
+		max-width: 331px;  
+		margin-left: 15px;
+	}
+}
+
+@media all and (min-width: 395px) and (max-width: 475px) {
+	.fbbutton {
+		max-width: 369px;
+		left: 50%;
+		margin-left: -184px;
+	}
+	
+	#logininputemail {
+		max-width: 369px;
+		width: 100%;
+		margin-left: -184px;
+	}
+	#logininputpass {
+		max-width: 369px;
+		width: 100%;
+		margin-left: -184px;
+	}
+	
+	.icons {
+		margin-left: 158px;
+	}
+	.remember_panel {
+		left: 50%;
+		margin-left: -114px;
+	}
+	#forgetpass {
+	}
+	.loginbutton {
+		max-width: 215px;
+		margin-left: -107px;
+	}
+
+	.establishment {
+		max-width: 370px;
+		margin-left: 15px;
+		background-position: -42px;
+		padding-right: 20px;
+	}
+	.contactus {
+		max-width: 371px;  
+		margin-left: 14px;
+	}
+}
+
+@media all and (min-width: 475px) and (max-width: 955px) {
+	.fbbutton {
+		max-width: 390px;
+		left: 50%;
+		margin-left: -192px;
+	}
+	
+	#logininputemail {
+		max-width: 390px;
+		width: 100%;
+		margin-left: -192px;
+	}
+	#logininputpass {
+		max-width: 390px;
+		width: 100%;
+		margin-left: -192px;
+	}
+	
+	.icons {
+		margin-left: 168px;
+	}
+	.remember_panel {
+		left: 50%;
+		margin-left: -115px;
+	}
+	#forgetpass {
+	}
+	.loginbutton {
+		max-width: 215px;
+		margin-left: -107px;
+	}
+
+	.establishment {
+		max-width: 390px;
+		left: 50%;
+		margin-left: -192px;
+		background-position: -22px;
+		padding-right: 20px;
+	
+		clear: both;
+}
+	.contactus {
+		max-width: 390px;  
+		left: 50%;
+		margin-left: -390px;
+		top: 57px;
+		margin-bottom: 70px;
+	
+		margin-top: 15px;
+}
+}
+
+@media all and (min-width: 955px)  {
+
+	.establishment {
+		max-width: 390px;
+		background-position: -22px;
+		padding-right: 20px;
+		left: 50%;
+		margin-left: -395px;
+		clear: both;
+		margin-top: 10px;
+}
+	.contactus {
+		max-width: 390px;
+		left: 50%;
+	}
+}

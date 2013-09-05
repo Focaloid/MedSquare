@@ -1,0 +1,599 @@
+/* additional css rules for medsquare app main page*/
+
+.search_top_panel {
+	margin: 20px 60px 20px 15px;
+	background: #2c3e50;
+	padding: 5px;
+}
+.search {
+    max-width: 320px;
+	
+    min-height: 33px;
+}
+.searchoptions {
+    margin-top: -33px;
+    margin-left: 320px;
+    width: 35px;
+    background: #ecf0f1;
+    border: 0;
+    border-radius: 0;
+    padding: 6px 0 2px;
+    min-height: 33px;
+    max-height: 33px;
+}
+.insurance_only_checkbox {
+    max-width: 14px;
+    min-height: 14px;
+    margin-top: 13px;
+    margin-left: 7px;
+}
+.insurance_only_check {
+    color: #fff;
+    font-size: 12px;
+    margin-top: -23px;
+    margin-bottom: 8px;
+    margin-left: 37px;
+}
+.closetome {
+    margin-top: -37px;
+    margin-right: 44px;
+    border: 0;
+    background: transparent url(../images/heart.png) no-repeat center;
+    background-position: center 2px;
+    font-size: 11px;
+    color: #fff;
+    width: 70px;
+    padding: 25px 0px 0px;
+    float: right;
+}
+.closesearch {
+    border: 0;
+    border-radius: 0;
+    width: 35px;
+    padding: 4px 0 2px;
+    min-height: 33px;
+    float: right;
+    margin-top: -38px;
+    font-size: 21px;
+}
+
+.searchresults {
+    margin: 0px 20px;
+}
+.result {
+	float: left;
+	width:100%;
+	padding: 8px 8px;
+	background:url(../images/odd_right.png) no-repeat;
+	background-position:90% center;
+}
+#he_logo {
+	float: left;
+	width: 80px;
+	height: 47px;
+}
+.he_details {
+    float:left;
+    margin-left:10px;
+    width: 308px;
+}
+.he_head {
+    float:left;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #2c3e50;
+    width: 100%;
+    font-weight: bold;
+}
+.he_info {
+    float:left;
+    color: #2c3e50;
+    font-size: 12px;
+    margin-top: 3px;
+    line-height: 20px;
+}
+
+
+.search_filter {
+    float: right;
+    background: #cad0d1 url(../images/show_filter.png) no-repeat center;
+    border-radius: 0;
+    border: 0;
+    width: 33px;
+    height: 33px;
+}
+.filter_holder {
+    background: #2c3e50;
+    padding: 4px;
+    width: 41px;
+    position: absolute;
+    right: 15px;
+    z-index: 1;
+    top: 20px;
+}
+
+.filter_menu {
+    width: 232px;
+    position: absolute;
+    right: -232px;
+    top: 68px;
+    z-index: 1;
+}
+.filter_manu_button {
+    float: left;
+    width: 100%;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.even  {
+	background:#ecf0f1 url(../images/even_right.png) no-repeat;
+	background-position:90% center;
+}
+
+.he_distTime {
+    background: url(../images/loc_small.png) no-repeat left;
+    padding-left: 14px;
+    margin-left: 5px;
+    font-size: 12px;
+    background-size: 10%;
+    white-space: nowrap;
+}
+.he_details_main .he_distTime:hover {
+    text-decoration:underline;
+}
+.even .he_distTime {
+    background: url(../images/loc_small2.png) no-repeat left;
+    background-size: 10%;
+}
+.result_map .he_distTime {
+    background: url(../images/loc_small2.png) no-repeat left;
+    background-size: 10%;
+}
+
+.he_stars {
+    float: left;
+    clear: both;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.active.star{
+    float: left;
+	background:url(../images/star_active.png) no-repeat center;
+	width:10px;
+	height:11px;
+}
+.star {
+    float: left;
+	background:url(../images/star.png) no-repeat center;
+	width:10px;
+	height:11px;
+    margin-right: 3px;
+}
+.he_evals {
+    float: left;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.he_queueTime {
+    float: left;
+    clear: both;
+    background: url(../images/clock_small.png) no-repeat left;
+    padding-left: 22px;
+    padding-top: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 22px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.he_dateTime {
+    float: left;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+.he_onlineCount {
+    float: left;
+    font-size: 12px;
+    margin-top: 6px;
+    height: 20px;
+    padding-top: 2px;
+    font-weight: bold;
+}
+
+#online1 {
+    float: left;
+    width: 15px;
+    margin-right: 5px;
+}
+#online3 {
+    float: left;
+    width: 23px;
+    margin-right: 5px;
+}
+#online5 {
+    float: left;
+    width: 30px;
+    margin-right: 5px;
+}
+.he_onlineCountText {
+    float: left;
+    margin-top: 1px;
+}
+
+@media all and (max-width: 315px) {
+    
+    #he_logo {
+        width: 45px;
+        height: 35px;
+    }
+	.search_top_panel {
+		margin: 20px 55px 20px 8px;
+	}
+	.search {
+		max-width: 132px;
+	}
+	.searchoptions {
+		margin-left: 132px;
+	
+}
+	.insurance_only_checkbox {
+		margin-top: 10px;
+		margin-left: 0px;
+}
+	.insurance_only_check {
+		margin-left: 18px;
+		margin-top: -20px;
+		width: 90px;
+		margin-bottom: 4px;
+}
+	.closetome {
+		margin-top: -40px;
+	}
+	.closesearch {
+		margin-top: -33px;
+		font-size: 21px;
+	}
+	
+	.searchresults {
+        margin: 0px 11px;
+    }
+    .result {
+    	width: 220px;
+    }
+    .he_details {
+        width: 148px;
+    }
+	.filter_holder {
+		right: 10px;
+	}
+}
+
+@media all and (min-width: 315px) and (max-width: 355px) {
+    
+    #he_logo {
+        width: 55px;
+        height: 40px;
+    }
+	.search_top_panel {
+	}
+	.search {
+		max-width: 201px;
+	}
+	.searchoptions {
+		margin-left: 200px;
+	}
+	.insurance_only_checkbox {
+		margin-left: 2px;
+	}
+	.insurance_only_check {
+		margin-top: -14px;
+		margin-bottom: 0px;
+		margin-left: 21px;
+		width: 150px;
+    }
+	.closetome {
+		margin-top: -37px;
+		margin-right: 44px;
+	}
+	.closesearch {
+		float: right;
+		margin-top: -23px;
+	}
+	
+	.searchresults {
+        margin: 0px 15px;
+    }
+    .result {
+    	width: 290px;
+    }
+    .he_details {
+        width: 208px;
+    }
+	
+	.filter_holder {
+	}
+}
+
+@media all and (min-width: 355px) and (max-width: 395px) {
+    
+    #he_logo {
+        width: 60px;
+        height: 40px;
+    }
+	.search_top_panel {
+	}
+	.search {
+		max-width: 241px;
+	}
+	.searchoptions {
+		margin-left: 240px;
+	}
+	.insurance_only_checkbox {
+		margin-left: 7px;
+	}
+	.insurance_only_check {
+		margin-top: -14px;
+		margin-bottom: 7px;
+		margin-left: 27px;
+	
+}
+	.closetome {
+		margin-top: -30px;
+		margin-right: 2px;
+    }
+	.closesearch {
+		float: right;
+		margin-top: -30px;
+	}
+	
+	.searchresults {
+        margin: 0px 15px;
+    }
+    .result {
+    	width: 330px;
+    }
+    .he_details {
+        width: 243px;
+    }
+	
+	.filter_holder {
+	}
+}
+
+@media all and (min-width: 395px) and (max-width: 475px) {
+    
+    #he_logo {
+        width: 65px;
+        height: 42px;
+    }
+	.search_top_panel {
+	}
+	.search {
+		max-width: 281px;
+	}
+	.searchoptions {
+		margin-left: 280px;
+	}
+	.insurance_only_checkbox {
+		margin-left: 7px;
+	}
+	.insurance_only_check {
+		margin-top: -14px;
+		margin-bottom: 3px;
+		margin-left: 26px;
+	
+    }
+	.closetome {
+		margin-top: -37px;
+		margin-right: 44px;
+	}
+	.closesearch {
+		float: right;
+		margin-top: -26px;
+	}
+	
+	.searchresults {
+        margin: 0px 15px;
+    }
+    .result {
+    	width: 370px;
+    
+    	background-position: 98% center;
+}
+    .he_details {
+        width: 278px;
+    }
+	
+	.filter_holder {
+	}
+}
+
+@media all and (min-width: 475px) and (max-width: 635px) {
+    
+    #he_logo {
+        width: 70px;
+        height: 42px;
+    }
+	.search_top_panel {
+	}
+	.search {
+		max-width: 361px;
+	}
+	.searchoptions {
+		margin-left: 360px;
+	}
+	.insurance_only_checkbox {
+		margin-left: 7px;
+	}
+	.insurance_only_check {
+		margin-top: -14px;
+		margin-bottom: 12px;
+		margin-left: 26px;
+	}
+	.closetome {
+		margin-top: -37px;
+		margin-right: 44px;
+	}
+	.closesearch {
+		float: right;
+		margin-top: -34px;
+	}
+	
+	.searchresults {
+        margin: 0px 15px;
+    }
+    .result {
+    background-position: 98% center;
+    }
+    .he_details {
+        width: 353px;
+    }
+	
+	.filter_holder {
+	}
+}
+
+@media all and (min-width: 635px) and (max-width: 715px) {
+    
+    #he_logo {
+        width: 80px;
+        height: 47px;
+    }
+	.search_top_panel {
+	}
+	.search {
+		max-width: 521px;
+	}
+	.searchoptions {
+		margin-left: 520px;
+	}
+	.insurance_only_checkbox {
+		margin-left: 7px;
+	}
+	.insurance_only_check {
+		margin-top: -14px;
+		margin-bottom: 12px;
+		margin-left: 26px;
+	}
+	.closetome {
+		margin-top: -37px;
+		margin-right: 44px;
+	}
+	.closesearch {
+		float: right;
+		margin-top: -34px;
+	}
+	
+	.searchresults {
+        margin: 0px 15px;
+    }
+    .result {
+    }
+    .he_details {
+        width: 503px;
+    }
+	
+	.filter_holder {
+	}
+}
+
+@media all and (min-width: 715px) and (max-width: 795px) {
+    
+    #he_logo {
+        width: 80px;
+        height: 47px;
+    }
+	.search_top_panel {
+	}
+	.search {
+		max-width: 601px;
+	}
+	.searchoptions {
+		margin-left: 600px;
+	}
+	.insurance_only_checkbox {
+		margin-left: 7px;
+	}
+	.insurance_only_check {
+		margin-top: -14px;
+		margin-bottom: 12px;
+		margin-left: 26px;
+	}
+	.closetome {
+		margin-top: -37px;
+		margin-right: 44px;
+	}
+	.closesearch {
+		float: right;
+		margin-top: -34px;
+	}
+	
+	.searchresults {
+        margin: 0px 15px;
+    }
+    .result {
+    }
+    .he_details {
+        width: 583px;
+    }
+	.filter_holder {
+	}
+}
+
+@media all and (min-width: 796px) {
+    
+    #he_logo {
+        width: 80px;
+        height: 47px;
+    }
+	.search_top_panel {
+		margin: 20px 0px 20px 15px;
+		width: 718px;
+		left: 50%;
+		margin-left: -383px;
+	}
+	.search {
+		max-width: 326px;
+	}
+	.searchoptions {
+		margin-top: -33px;
+		margin-left: 325px;
+	}
+	.insurance_only_checkbox {
+		margin-left: 370px;
+		margin-top: -23px;
+	}
+	.insurance_only_check {
+		margin-top: -14px;
+		margin-bottom: 9px;
+		margin-left: 390px;
+	}
+	.closetome {
+		margin-top: -37px;
+		margin-right: 44px;
+	}
+	.closesearch {
+		float: right;
+		margin-top: -34px;
+	}
+	
+	.searchresults {
+		left: 50%;
+		margin-left: -382px;
+		max-width: 700px;
+    }
+    .result {
+		width: 765px;
+    }
+    .he_details {
+        width: 650px;
+    }
+	.filter_holder {
+		left: 50%;
+		margin-left: 339px;
+		padding: 5px;
+		width: 43px;
+	}
+}
