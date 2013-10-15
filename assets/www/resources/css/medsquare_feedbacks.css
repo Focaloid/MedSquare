@@ -1,0 +1,418 @@
+
+#feedback_heinfo_panel {
+	float:left;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.usereval {
+	margin-bottom:10px;
+}
+
+.feedback_main_panel {
+	float:left;
+	width:100%;
+	padding: 10px 20px;
+}
+.feedbacks_section {
+	float:left;
+	border-top:1px solid #c2c5c9;
+}
+.feedbacks_div {
+	float:left;
+	width: 100%;
+	font-size: 12px;
+	margin-top: 7px;
+}
+.feedhead {
+	float:left;
+}
+.feedoptions {
+	float:left;
+	clear: both;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+.feedoption {
+	float:left;
+	margin-right: 20px;
+	line-height: 45px;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+.optionimg {
+	display: block;
+	height: 40px;
+	width: 50px;
+	float: left;
+	margin-right: 6px;
+}
+.queue .best {
+	background: url(../images/queuebest.png) no-repeat center;
+	background-size: 26px;
+}
+.queue .good {
+	background:url(../images/queuegood.png) no-repeat center;
+	background-size: 42px;
+}
+.queue .bad {
+	background:url(../images/queuebad.png) no-repeat center;
+	background-size: 38px;
+}
+
+.ambience .best {
+	background:url(../images/ambiencebest.png) no-repeat center;
+	background-size: 49px;
+}
+.ambience .good {
+	background:url(../images/ambiencegood.png) no-repeat center;
+	background-size: 49px;
+}
+.ambience .bad {
+	background:url(../images/ambiencebad.png) no-repeat center;
+	background-size: 49px;
+}
+
+.reception .best {
+	background:url(../images/receptionbest.png) no-repeat center;
+	background-size: 48px;
+}
+.reception .good {
+	background:url(../images/receptiongood.png) no-repeat center;
+	background-size: 48px;
+}
+.reception .bad {
+	background:url(../images/receptionbad.png) no-repeat center;
+	background-size: 40px;
+}
+
+.medical .best {
+	background:url(../images/medicalbest.png) no-repeat center;
+	background-size: 52px;
+}
+.medical .good {
+	background:url(../images/medicalgood.png) no-repeat center;
+	background-size: 50px;
+}
+.medical .bad {
+	background:url(../images/medicalbad.png) no-repeat center;
+	background-size: 48px;
+}
+
+.satisfaction .best {
+	background:url(../images/satisfactionbest.png) no-repeat center;
+	background-size: 46px;
+}
+.satisfaction .good {
+	background:url(../images/satisfactiongood.png) no-repeat center;
+	background-size: 46px;
+}
+.satisfaction .bad {
+	background:url(../images/satisfactionbad.png) no-repeat center;
+	background-size: 46px;
+}
+
+.starbig {
+	background: url(../images/star.png) no-repeat center;
+    
+	background-size: 26px;
+	display: inline-block;
+	width: 26px;
+	height: 27px;
+    margin-right:5px;
+}
+.starbig.rated {
+	background:url(../images/starbig_active.png) no-repeat center;
+}
+.comment_head {
+    margin-left: 10px;
+	}
+.comment_head_field {
+    margin-left: 35px;
+    float: left;
+    clear: both;
+}
+.comment_head_field input::-webkit-input-placeholder {
+    color: #888;
+}
+#comments_box {
+    border: 0;
+    width: 80% !important;
+    min-height: 100px;
+    max-width: 420px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.x-field-textarea textarea {
+    min-height: 90px;
+	max-height: 90px;
+}
+.selectedoption {
+	border: 1px solid rgb(70, 199, 10);
+	padding: 2px;
+}
+.sendbutton {
+	border:0;
+	border-radius:0;
+	background:#2c3e50;
+	color:#fff;
+	font-size:14px;
+	margin-bottom: 70px;
+	width: 100px;
+	left: 50%;
+	margin-left: -50px;
+}
+.comments_box .x-clear-icon {
+    height: 89px;
+    margin-top: -45px;
+}
+
+@media all and (max-width: 315px) {
+	#feedback_heinfo_panel .he_details {
+    width: 145px;
+		
+	}
+	#feedback_heinfo_panel .he_head {
+    height: auto;
+		
+	}
+	#feedback_heinfo_panel .he_info {
+    margin-left: 0px;
+		
+	}
+}
+
+@media all and (min-width: 315px) and (max-width: 355px) {
+	.feedoption {
+		margin-right: 10px;
+	}
+	.optionimg {
+		width: 32px;
+		margin-right: 5px;
+	}
+	.queue .best {
+		background-size: 20px;
+	}
+	.queue .good {
+		background-size: 32px;
+	}
+	.queue .bad {
+		background-size: 30px;
+	}
+
+	.ambience .best {
+		background-size: 34px;
+	}
+	.ambience .good {
+		background-size: 34px;
+	}
+	.ambience .bad {
+		background-size: 34px;
+	}
+
+	.reception .best {
+		background-size: 33px;
+	}
+	.reception .good {
+		background-size: 34px;
+	}
+	.reception .bad {
+		background-size: 30px;
+	}
+
+	.medical .best {
+		background-size: 34px;
+	}
+	.medical .good {
+		background-size: 32px;
+	}
+	.medical .bad {
+		background-size: 32px;
+	}
+
+	.satisfaction .best {
+		background-size: 31px;
+	}
+	.satisfaction .good {
+		background-size: 31px;
+	}
+	.satisfaction .bad {
+		background-size: 31px;
+	}
+	
+	#feedback_heinfo_panel .he_details {
+    width: 215px;
+		
+	}
+	#feedback_heinfo_panel .he_head {
+		
+	}
+	#feedback_heinfo_panel .he_info {
+		
+	}
+}
+
+@media all and (min-width: 355px) and (max-width: 395px) {
+	.feedoption {
+		margin-right: 10px;
+	}
+	.optionimg {
+		width: 32px;
+		margin-right: 5px;
+	}
+	.queue .best {
+		background-size: 20px;
+	}
+	.queue .good {
+		background-size: 32px;
+	}
+	.queue .bad {
+		background-size: 30px;
+	}
+
+	.ambience .best {
+		background-size: 34px;
+	}
+	.ambience .good {
+		background-size: 34px;
+	}
+	.ambience .bad {
+		background-size: 34px;
+	}
+
+	.reception .best {
+		background-size: 33px;
+	}
+	.reception .good {
+		background-size: 34px;
+	}
+	.reception .bad {
+		background-size: 30px;
+	}
+
+	.medical .best {
+		background-size: 34px;
+	}
+	.medical .good {
+		background-size: 32px;
+	}
+	.medical .bad {
+		background-size: 32px;
+	}
+
+	.satisfaction .best {
+		background-size: 31px;
+	}
+	.satisfaction .good {
+		background-size: 31px;
+	}
+	.satisfaction .bad {
+		background-size: 31px;
+	}
+	
+	#feedback_heinfo_panel .he_details {
+    width: 249px;
+		
+	}
+	#feedback_heinfo_panel .he_head {
+		
+	}
+	#feedback_heinfo_panel .he_info {
+		
+	}
+}
+
+@media all and (min-width: 395px) and (max-width: 475px) {
+	.feedoption {
+		margin-right: 10px;
+	}
+	
+	#feedback_heinfo_panel .he_details {
+    	width: 284px;
+	}
+	#feedback_heinfo_panel .he_head {
+		
+	}
+	#feedback_heinfo_panel .he_info {
+		
+	}
+}
+
+@media all and (min-width: 475px) and (max-width: 635px) {
+	
+	#feedback_heinfo_panel .he_details {
+		 width: 359px;
+	}
+	#feedback_heinfo_panel .he_head {
+		
+	}
+	#feedback_heinfo_panel .he_info {
+		
+	}
+}
+
+@media all and (min-width: 635px) and (max-width: 715px) {
+	
+	#feedback_heinfo_panel .he_details {
+    width: 420px;
+		
+	}
+	#feedback_heinfo_panel .he_head {
+		
+	}
+	#feedback_heinfo_panel .he_info {
+		
+	}
+}
+
+@media all and (min-width: 715px) and (max-width: 767px) {
+	
+	#feedback_heinfo_panel .he_details {
+		
+	}
+	#feedback_heinfo_panel .he_head {
+		
+	}
+	#feedback_heinfo_panel .he_info {
+		
+	}
+}
+
+@media all and (min-width: 768px) {
+	.medsquare_feedbacks {
+		width:768px !important;
+		left: 50% !important;
+		margin-left:-384px;
+	}
+	#feedback_heinfo_panel {
+		width:768px !important;
+		left: 50% !important;
+		margin-left:-384px;
+	}
+	.feedback_main_panel {
+		width:768px !important;
+		left: 50% !important;
+		margin-left:-384px;
+		clear: both;
+	}
+	.comments_panel {
+		width:768px !important;
+		left: 50% !important;
+		margin-left:-384px;
+		clear: both;
+	}
+	
+	#feedback_heinfo_panel .he_details {
+    width: 420px;
+		
+	}
+	#feedback_heinfo_panel .he_head {
+		
+	}
+	#feedback_heinfo_panel .he_info {
+		
+	}
+}

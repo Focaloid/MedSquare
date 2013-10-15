@@ -1,0 +1,369 @@
+/* additional css rules for medsquare app login page*/
+
+.signupmainpanel {
+	width:100%;
+	padding: 0px 10px;
+	max-width: 690px;
+	left: 50%;
+	margin-left: -200px;
+	margin-bottom: 20px;
+}
+.createnewmedcontainer {
+	float:left;
+    font-size: 13px;
+    text-align: center;
+    width:100%;
+    margin-top: 10px;
+}
+.createnewmed {
+    display: inline-block;
+    height: 25px;
+    width: 100%;
+    border-bottom: 2px solid #edeeef;
+}
+.alreadyhave {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    font-size: 12px;
+    float: right;
+    color: #5473a2;
+}
+.signupheader {
+    float: left;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.signuphead {
+    color: #0182af;
+    font-weight: bold;
+}
+.alwaysfree {
+    font-size: 13px;
+}
+.signupinputpanel {
+    float: left;
+    clear: both;
+    margin-top: 0px;
+    margin-left: 45px;
+}
+.signupinputfield {
+    float: left;
+    margin-left: 5px;
+}
+.agree_panel {
+	float:left;
+	margin-top: 10px;
+	margin-left: 114px;
+	width: 224px;
+}
+.agree_panel a {
+	color: #5473a2;
+	text-decoration:none;
+}
+#agree_check {
+	float:left;
+	margin-right:10px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.agree_check_text {
+	font-size:13px;
+	line-height: 20px;
+}
+.signupbutton {
+	float:left;
+	width: 215px;
+	max-width: 260px;
+	margin-top: 15px;
+	border-radius: 0;
+	background: #1abc9c;
+	color: #fff;
+	border: 0 none;
+	font-size: 20px;
+	left: 50%;
+	margin-left: -138px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.sigupstatus {
+	background:url(../images/signupok.png) no-repeat center;
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.sigupstatus.error {
+	background:url(../images/signuperror.png) no-repeat center;
+}
+
+.signupmainpanel .x-field-clearable {
+    min-height: 36px;
+	margin-bottom: 9px;
+}
+.x-field-clearable.signupinputfield {
+	background: #ecf0f1;
+	width: 190px;
+	min-height: 36px;
+	margin-bottom: 10px;
+}
+.medsquare_signup {
+	height: 609px !important;
+}
+@media all and (max-width: 315px) {
+	.signupmainpanel {
+		margin-left: -120px;
+	}
+	.createnewmedcontainer {
+	}
+	.createnewmed {
+	}
+	.alreadyhave {
+    margin-right: 5px;
+	}
+	.signupheader {
+	}
+	.signupinputpanel {
+		margin-left: 0px;
+	}
+	.signupinputfield {
+		margin-left: 0px;
+		width: 190px;
+	}
+	.agree_panel {
+		margin-left: 0px;
+		width: 224px;
+	}
+	#agree_check {
+	}
+	.agree_check_text {
+	}
+	.signupbutton {
+		margin-left: -107px;
+	}
+	#forgotbuttonsubmit {
+		margin-left: -111px;
+		width: 234px;
+		text-align: center;
+	}
+	#emailforgot {
+    width: 155px;
+	
+	}
+	#forgotinputpanel {
+		margin-left: 14px;
+	}
+}
+
+@media all and (min-width: 315px) and (max-width: 355px) {
+	.signupmainpanel {
+		margin-left: -161px;
+	}
+	.createnewmedcontainer {
+	}
+	.createnewmed {
+	}
+	.alreadyhave {
+	}
+	.signupheader {
+	}
+	.signupinputpanel {
+		margin-left: 26px;
+	}
+	.signupinputfield {
+		margin-left: 0px;
+	}
+	.agree_panel {
+		margin-left: -3px;
+		width: 224px;
+	}
+	#agree_check {
+	}
+	.agree_check_text {
+	}
+	.signupbutton {
+		margin-left: -137px;
+	}
+	.sigupstatus {
+	}
+	#forgotbuttonsubmit {
+		margin-left: -120px;
+		width: 234px;  
+		text-align: center;
+	}
+	#emailforgot {
+	
+	}
+	#forgotinputpanel {
+		margin-left: 34px;
+	}
+}
+
+@media all and (min-width: 355px) and (max-width: 395px) {
+	.signupmainpanel {
+		margin-left: -180px;
+	}
+	.createnewmedcontainer {
+	}
+	.createnewmed {
+	}
+	.alreadyhave {
+	}
+	.signupheader {
+	}
+	.signupinputpanel {
+		margin-left: 43px;
+	}
+	.signupinputfield {
+		width: 215px;
+	}
+	.x-field-clearable.signupinputfield {
+		width: 215px;
+	}
+	.agree_panel {
+		margin-left: -3px;
+		width: 224px;
+	}
+	#agree_check {
+	}
+	.agree_check_text {
+	}
+	.signupbutton {
+		margin-left: -145px;
+		clear: both;
+	}
+	#forgotbuttonsubmit {
+		margin-left: -119px;
+	
+		width: 234px;  text-align: center;
+}
+	#forgotinputpanel {
+		margin-left: 54px;
+	}
+}
+
+@media all and (min-width: 395px) and (max-width: 475px) {
+	.signupmainpanel {
+		margin-left: -200px;
+	}
+	.createnewmedcontainer {
+	}
+	.createnewmed {
+	}
+	.alreadyhave {
+	}
+	.signupheader {
+	}
+	.signupinputpanel {
+		margin-left: 25px;
+	}
+	.signupinputfield {
+		width: 300px;
+	}
+	.x-field-clearable.signupinputfield {
+		width: 330px;
+	}
+	.agree_panel {
+		margin-left: -3px;
+		width: 310px;
+	}
+	#agree_check {
+	}
+	.agree_check_text {
+	}
+	.signupbutton {
+		margin-left: -134px;
+		clear: both;
+	}
+	#forgotbuttonsubmit {
+		margin-left: -120px;
+	
+		width: 234px;  text-align: center;
+}
+	#forgotinputpanel {
+		margin-left: 30px;
+	}
+}
+
+@media all and (min-width: 475px) and (max-width: 955px) {
+	.signupmainpanel {
+		margin-left: -240px;
+		width: 480px;
+	}
+	.createnewmedcontainer {
+	}
+	.createnewmed {
+	}
+	.alreadyhave {
+	}
+	.signupheader {
+	}
+	.signupinputpanel {
+		margin-left: 54px;
+	}
+	.signupinputfield {
+		width: 330px;
+	}
+	.x-field-clearable.signupinputfield {
+		width: 330px;
+	}
+	.agree_panel {
+		margin-left: -3px;
+		width: 340px;
+	}
+	#agree_check {
+	}
+	.agree_check_text {
+	}
+	.signupbutton {
+	}
+	#forgotbuttonsubmit {
+		margin-left: -117px;
+	
+		width: 234px;  text-align: center;
+}
+	#forgotinputpanel {
+	}
+}
+
+@media all and (min-width: 955px)  {
+	.signupmainpanel {
+		margin-left: -240px;
+		width: 480px;
+	}
+	.createnewmedcontainer {
+	}
+	.createnewmed {
+	}
+	.alreadyhave {
+	}
+	.signupheader {
+	}
+	.signupinputpanel {
+		margin-left: 54px;
+	}
+	.signupinputfield {
+		width: 330px;
+	}
+	.x-field-clearable.signupinputfield {
+		width: 330px;
+	}
+	.agree_panel {
+		margin-left: -3px;
+		width: 340px;
+	}
+	#agree_check {
+	}
+	.agree_check_text {
+	}
+	.signupbutton {
+	}
+	#forgotbuttonsubmit {
+		margin-left: -107px;
+	}
+	#forgotinputpanel {
+	}
+}

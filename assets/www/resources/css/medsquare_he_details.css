@@ -1,38 +1,907 @@
 /* additional css rules for medsquare app main page*/
+.details_viewport {
+	max-width:800px;
+}
 
+.he_main_details {
+	float:left;
+}
+.detail_panel {
+	float:left;
+}
+.details_section {
+    width: 100%;
+    padding: 0px 10px;
+    float: left;
+}
+.details_div {
+    width: 315px;
+	float: left;
+}
+.detail_button {
+    background: #ecf0f1;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #C9C6C6;
+    padding: 5px;
+    margin-top: -1px;
+}
+.active {
+    background: #2c3e50;
+    color:#fff;
+}
+#details {
 
+}
+#photos {
 
+}
+#contact {
+
+}
+/* #online {
+	background:#ecf0f1 url(../images/online5.png) no-repeat;
+	background-size: 34px;
+	background-position-x: calc(50% - 50px);
+	background-position-y: 50%;
+	padding-left: 40px;
+}
+.active#online {
+    background: #2c3e50 url(../images/online5white.png) no-repeat;
+    background-position-x: calc(50% - 50px);
+	background-position-y: 50%;
+    background-size: 34px;
+} */
+.details_info {
+    font-size: 11px;
+    padding: 5px;
+	float: left;
+    text-align: justify;
+    width: 100%;
+}
+.details_photos {
+    float: left;
+    width: 716px;
+    color: #000;
+    font-size: 11px;
+}
+.detail_photo {
+    float: left;
+    width: 135px;
+    height: 90px;
+    margin-right: 10px;
+}
+.detail_photo.last {
+    margin-right: 0px;
+}
+.photodiv {
+	height:100px;
+}
+.photospanel {
+    float: left;
+    max-height: 0px;
+    height: 100px;
+    width: 325px;
+    margin-left: 5px;
+	-webkit-transition: max-height  .1s ease;
+    transition: max-height .1s ease;
+}
+.photospanel.active{
+    max-height: 110px;
+    height: 95px;
+    width: 325px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 10px;
+	-webkit-transition: max-height  .2s ease;
+    transition: max-height .2s ease;
+}
+.visible {
+	float: left;
+	overflow:hidden;
+	max-height:300px;
+	-webkit-transition: max-height  .5s ease;
+    transition: max-height .5s ease;
+}
+.hidden{
+    max-height: 0;
+	overflow:hidden;
+	border:0;
+	padding:0;
+	-webkit-transition: max-height  .1s ease;
+    transition: max-height .1s ease;
+}
+.last {
+    margin-right:0px;
+}
+
+.userevalheadpanel {
+	width: 380px;
+	float: left;
+    margin:0px 10px;
+}
+.userevalhead {
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    background: url(../images/user1.png) no-repeat left;
+    background-size: 15px;
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 136px;
+}
+.userevalhead:hover {
+    background:#1ABC9C url(../images/user1.png) no-repeat left;
+    background-size: 15px;
+}
+.evals {
+    float: right;
+    margin-top: 14px;
+}
+.ratings {
+    float: left;
+    margin-right: 10px;
+}
+.evaluations {
+    float: left;
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+.he_ratingspanel {
+    float: left;
+}
+.he_ratings_section {
+    float: left;
+    width: 100%;
+}
+.rating_div {
+    float: left;
+    text-align: center;
+    width: 80px;
+}
+.rating_head {
+    float: left;
+    font-size: 13px;
+    background: #2c3e50;
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+.rating_image {
+    clear: both;
+    float: left;
+    font-size: 11px;
+    padding-top: 54px;
+    width: 100%;
+}
+
+.queue.bad{
+    background: url(../images/queuebad.png) no-repeat;
+    background-size: 35px;
+    background-position: center 13px;
+}
+.queue.good{
+    background: url(../images/queuegood.png) no-repeat;
+    background-size: 40px;
+    background-position: center 13px;
+}
+.queue.best{
+    background: url(../images/queuebest.png) no-repeat;
+    background-size: 30px;
+    background-position: center 13px;
+}
+.queue.bad:after{
+    content: "1+ hours";
+}
+.queue.good:after{
+    content: "50 mins";
+}
+.queue.best:after{
+    content: "30 mins";
+}
+
+.ambience.bad:after,.reception_details.bad:after,.medical_details.bad:after {
+	content: "Draft";
+}
+.ambience.good:after,.reception_details.good:after,.medical_details.good:after {
+	content: "Good";
+}
+.ambience.best:after,.reception_details.best:after,.medical_details.best:after {
+	content: "Best";
+}
+
+.satisfaction.bad:after{
+    content: "Sad";
+}
+.satisfaction.good:after{
+    content: "Normal";
+}
+.satisfaction.best:after{
+    content: "Happy";
+}
+
+.ambience.bad {
+    background: url(../images/ambiencebad.png) no-repeat;
+    background-size: 60px;
+    background-position: center 18px;
+}
+.ambience.good {
+    background: url(../images/ambiencegood.png) no-repeat;
+    background-size: 60px;
+    background-position: center 18px;
+}
+.ambience.best {
+    background: url(../images/ambiencebest.png) no-repeat;
+    background-size: 60px;
+    background-position: center 18px;
+}
+
+.reception_details.bad {
+    background: url(../images/receptionbad.png) no-repeat;
+    background-size: 45px;
+    background-position: center 6px;
+    padding-top: 39px;
+}
+.reception_details.good {
+    background: url(../images/receptiongood.png) no-repeat;
+    background-size: 45px;
+    background-position: center 6px;
+    padding-top: 39px;
+}
+.reception_details.best {
+    background: url(../images/receptionbest.png) no-repeat;
+    background-size: 45px;
+    background-position: center 6px;
+    padding-top: 39px;
+}
+
+.medical_details.bad {
+    background: url(../images/medicalbad.png) no-repeat;
+    background-size: 48px;
+    background-position: center 7px;
+    padding-top: 39px;
+}
+.medical_details.good {
+    background: url(../images/medicalgood.png) no-repeat;
+    background-size: 54px;
+    background-position: center 7px;
+    padding-top: 39px;
+}
+.medical_details.best {
+    background: url(../images/medicalbest.png) no-repeat;
+    background-size: 62px;
+    background-position: center 7px;
+    padding-top: 39px;
+}
+
+.satisfaction.bad {
+    background: url(../images/satisfactionbad.png) no-repeat;
+    background-size: 45px;
+    background-position: center 13px;
+}
+.satisfaction.good {
+    background: url(../images/satisfactiongood.png) no-repeat;
+    background-size: 45px;
+    background-position: center 13px;
+}
+.satisfaction.best {
+    background: url(../images/satisfactionbest.png) no-repeat;
+    background-size: 45px;
+    background-position: center 13px;
+}
+
+.comments_head {
+    float: left;
+    background: #cad0d1;
+    width: 100%;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.comments {
+	float:left;
+	font-size: 14px;
+	font-weight: bold;
+}
+.viewmore {
+	float:left;
+	background:url(../images/viewmore.png) no-repeat left;
+	font-size: 12px;
+	background-size: 13px;
+	padding-left: 22px;
+	margin-left: 10px;
+}
+.comments_panel {
+	float:left;
+	width: 100%;
+}
+.comment_head {
+	float:left;
+	font-size: 13px;
+	font-weight: bold;
+}
+.comment_ratings {
+	float:left;
+	margin-left:15px;
+	margin-top: 3px;
+}
+.comment_text {
+	float:left;
+	clear: both;
+	font-size: 11px;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #8A8A8A;
+}
+.comment_author {
+	float:left;
+	clear: both;
+	font-size: 11px;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+.comment_data {
+	float: left;
+	padding: 10px;
+	width: 100%;
+}
+.comment_data.even {
+	background:#ecf0f1;
+}
+.checkin {
+	float: left;
+	clear: both;
+	margin-top: 10px;
+	padding: 7px 15px;
+	padding-left: 38px;
+	border:0;
+	border-radius:0;
+	background: #2c3e50 url(../images/checkin.png) no-repeat left;
+	background-size: 20px;
+	background-position: 10px;
+	color:#fff;
+	font-size:14px;
+	left: 50%;
+	margin-left: -102px;
+	margin-bottom: 70px;
+}
+.checkin.checkout {
+	background: #2c3e50 url(../images/checkout.png) no-repeat left;
+	background-size: 20px;
+	background-position: 10px;
+	margin-left: -60px;
+}
+
+.getintouch {
+
+}
+.contact_hename {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.contact_address {
+	float:left;
+	clear:both;
+}
+.contact_phone {
+	float:left;
+	clear:both;
+}
+.contact_email {
+	float:left;
+	clear:both;
+}
+.whoistherehead {
+    background: #f8f8f8;
+
+    padding: 5px;
+    float: left;
+    width: 100%;
+}
+.whoisthere {
+    background: url(../images/user1.png) no-repeat left;
+    background-size: 13px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-right: 15px;
+}
+.messagetoall {
+	background:url(../images/messagealltick.png) no-repeat left;
+	background-size: 10px;
+	padding-left: 15px;
+}
+.onlineusers {
+    float: left;
+    width: 110px;
+}
+.onlineuser {
+	background:url(../images/onlineusermsg.png) no-repeat left;
+	background-size: 20px;
+	padding-left: 23px;
+	float: left;
+	margin-top: 3px;
+}
+
+.no_rating {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: grey;
+}
+.attendance {
+	font-size: 11px;
+	margin-top: 32px;
+	text-align: center;
+	width: 100%;
+}
+.checkoutTop {
+	float: right;
+	margin: -37px 8px 0px 0px;
+	
+	background-color: #192633 !important;
+	background-image: url(../images/checkout_green.png) !important;
+	background-repeat: no-repeat;
+	background-size: 22px;
+	background-position: center;
+	width: 38px;
+	border: 0;
+	border-radius: 0;
+}
 
 @media all and (max-width: 315px) {
+	.details_section {
+		width: 100%;
+		padding: 0px 10px;
+	}
+	.details_div {
+		width: 218px;
+	}
+	.detail_button {
+	}
+	.details_info {
+	}
+	.details_photos {
+	}
+	.photodiv {
+		height:100px;
+	}
+	.photospanel.active{
+		width: 218px;
+	}
+	.userevalheadpanel {
+		width: 219px;
+	}
+    .evals {
+        margin-top: 8px;
+    }
+    
+    .he_ratings_section {
+        width: 240px;
+    }
+	.rating_div {
+		width: 48px;
+	}
+	.comments_head {
+		width: 240px;
+	}
+    .viewmore {
+       margin-left:-1px;
+       margin-top:5px;
+    }
+	.comments_panel {
+		width: 240px;
+	}
+    .he_details_main {
+        width:240px
+    }
+	
+	
+	.rating_head {
+		font-size: 10px;
+	}
+	.attendance {
+		font-size: 9px;
+	}
+	.queue.bad{
+		background-size: 30px;
+		background-position: center 21px;
+	}
+	.queue.good{
+		background-size: 32px;
+		background-position: center 21px;
+	}
+	.queue.best{
+		background-size: 25px;
+		background-position: center 21px;
+	}
+	.ambience.bad {
+		background-size: 40px;
+		background-position: center 25px;
+	}
+	.ambience.good {
+		background-size: 40px;
+		background-position: center 25px;
+	}
+	.ambience.best {
+		background-size: 40px;
+		background-position: center 25px;
+	}
 
-	
-	
+	.reception_details.bad {
+		background-size: 30px;
+	}
+	.reception_details.good {
+		background-size: 38px;
+	}
+	.reception_details.best {
+		background-size: 38px;
+	}
+
+	.medical_details.bad {
+		background-size: 40px;
+	}
+	.medical_details.good {
+		background-size: 40px;
+	}
+	.medical_details.best {
+		background-size: 40px;
+	}
+	.satisfaction.bad {
+		background-size: 35px;
+		background-position: center 20px;
+	}
+	.satisfaction.good {
+		background-size: 34px;
+		background-position: center 20px;
+	}
+	.satisfaction.best {
+		background-size: 35px;
+		background-position: center 20px;
+	}
 }
 
 @media all and (min-width: 315px) and (max-width: 355px) {
+	.details_section {
+		width: 100%;
+		padding: 0px 10px;
+	}
+	.details_div {
+		width: 300px;
+	}
+	.detail_button {
+	}
+	.details_info {
+	}
+	.details_photos {
+		width: 735px;
+	}
+	.photodiv {
+		height:100px;
+	}
+	.photospanel.active{
+		width: 300px;
+	}
+	.userevalheadpanel {
+		width: 300px;
+	}
+    .he_ratings_section {
+        width: 320px;
+    }
+	.rating_div {
+		width: 64px;
+	}
+    
+    .he_details_main {
+        width:320px
+    }
 	
+	.rating_head {
+		font-size: 11px;
+	}
+	.attendance {
+		font-size: 10px;
+	}
+	.queue.bad{
+		background-size: 32px;
+	
+		background-position: center 22px;
+}
+	.queue.good{
+		background-size: 34px;
+	
+		background-position: center 24px;
+}
+	.queue.best{
+		background-size: 28px;
+		background-position: center 17px;
+	}
+	.ambience.bad {
+		background-size: 42px;
+		background-position: center 26px;
+	}
+	.ambience.good {
+		background-size: 42px;
+		background-position: center 26px;
+	}
+	.ambience.best {
+		background-size: 42px;
+		background-position: center 26px;
+	}
+
+	.reception_details.bad {
+		background-size: 30px;
+	}
+	.reception_details.good {
+		background-size: 40px;
+	}
+	.reception_details.best {
+		background-size: 40px;
+	}
+
+	.medical_details.bad {
+		background-size: 42px;
+	}
+	.medical_details.good {
+		background-size: 42px;
+	}
+	.medical_details.best {
+		background-size: 42px;
+	}
+	.satisfaction.bad {
+		background-size: 37px;
+		background-position: center 20px;
+	}
+	.satisfaction.good {
+		background-size: 37px;
+		background-position: center 20px;
+	}
+	.satisfaction.best {
+		background-size: 37px;
+		background-position: center 20px;
+	}
 }
 
 @media all and (min-width: 355px) and (max-width: 395px) {
-	
+	.details_section {
+		width: 100%;
+		padding: 0px 10px;
+	}
+	.details_div {
+		width: 338px;
+	}
+	.detail_button {
+	}
+	.details_info {
+	}
+	.details_photos {
+	}
+	.photodiv {
+		height:100px;
+	}
+	.photospanel.active{
+		width: 338px;
+	}
+	.userevalheadpanel {
+		width: 338px;
+	}
+    .he_ratings_section {
+        width: 360px;
+    }
+	.rating_div {
+		width: 72px;
+	}
+    .rating_head {
+		font-size:12px;
+	}
+    .he_details_main {
+        width:360px
+    }
 }
 
 @media all and (min-width: 395px) and (max-width: 475px) {
+	.details_section {
+		width: 100%;
+		padding: 0px 10px;
+	}
+	.details_div {
+		float: left;
+		width: 380px;
+	}
+	.detail_button {
+	}
+	.details_info {
+    float: left;
 	
+    width: 100%;
+}
+	.details_photos {
+	}
+	.photodiv {
+		height:100px;
+	}
+	.photospanel.active{
+		width: 380px;
+	}
+	.userevalheadpanel {
+		width: 380px;
+	}
+    .he_ratings_section {
+        width: 400px;
+    }
+	.rating_div {
+		width: 80px;
+	}
 }
 
 @media all and (min-width: 475px) and (max-width: 635px) {
-	
+	.details_section {
+		width: 100%;
+		padding: 0px 10px;
+	}
+	.details_div {
+		width: 460px;
+	}
+	.detail_button {
+	}
+	.details_info {
+	}
+	.details_photos {
+	}
+	.photodiv {
+		height:100px;
+	}
+	.photospanel.active{
+		width: 460px;
+	}
+	.userevalheadpanel {
+		width: 460px;
+	}
+    .he_ratings_section {
+        width: 480px;
+    }
+	.rating_div {
+		width: 96px;
+	}
 }
 
 @media all and (min-width: 635px) and (max-width: 715px) {
-	
+	.details_section {
+    }
+	.details_div {
+		width: 155px;
+	}
+	.detail_button {
+        width: 150px;
+        float: left;
+        margin-right: 15px;
+    }
+	.details_info {
+        position: absolute;
+        left: 8px;
+        margin-top: 30px;
+        width: 620px;
+        text-align: justify;
+    }
+	.details_photos {
+		margin-top:10px;
+	}
+	.photospanel.active{
+		height: 105px;
+		width: 620px;
+		z-index: 2;
+		margin-top: 33px;
+	}
+	.userevalheadpanel {
+		width: 620px;
+		margin-top: 95px;
+    }
+    .he_ratings_section {
+        width: 640px;
+    }
+	.rating_div {
+		width: 128px;
+	}
 }
 
-@media all and (min-width: 715px) and (max-width: 795px) {
-	
+@media all and (min-width: 715px) and (max-width: 767px) {
+	.details_section {
+	}
+	.details_div {
+		width: 175px;
+	}
+	.detail_button {
+        width: 170px;  
+        float: left;  
+        margin-right: 15px;
+	}
+	.details_info {
+        position: absolute;
+        left: 8px;
+        margin-top: 30px;
+        width: 700px;
+        text-align: justify;
+    }
+	.details_photos {
+		margin-top:10px;
+	}
+	.photodiv {
+		height: 0px;
+	}
+	.photospanel.active{
+		width: 698px;
+		margin-top: 28px;
+		margin-left: 10px;
+		height: 105px;
+    }
+	.userevalheadpanel {
+		width: 700px;
+		margin-top: 95px;
+    }
+    .he_ratings_section {
+        width: 720px;
+    }
+	.rating_div {
+		width: 144px;
+	}
 }
 
-@media all and (min-width: 796px) {
-	
+@media all and (min-width: 768px) {
+	.details_section {
+		margin-left: 5px;
+	}
+	.details_div {
+		width: 187px;
+	}
+	.detail_button {
+		width: 182px;
+	}
+	.details_info {
+        position: absolute;
+        left: 17px;
+        margin-top: 0px;
+        width: 765px;
+        text-align: justify;
+    }
+	.details_photos {
+		margin-top:10px;
+	}
+	.photodiv {
+		height: 0;
+	}
+	.photospanel.active{
+		width: 735px;
+		margin-left: 36px;
+		height: 105px;
+		z-index: 1;
+		margin-top: 33px;
+	}
+	.details_viewport {
+		max-width: 768px;
+		left:50%;
+		margin-left: -384px;
+	}
+	.userevalheadpanel {
+		width: 738px;
+		margin-top: 105px;
+		margin-left: 18px;
+    }
+    .he_ratings_section {
+        width: 800px;
+    }
+	.rating_div {
+		width: 154px;
+	}
+	.whoistherehead {
+		width: 96%;
+	}
+	.he_details_main {
+        width:768px;
+        left: 50%;
+        margin-left: -384px;
+	}
 }

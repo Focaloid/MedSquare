@@ -1,0 +1,399 @@
+/* additional css rules for medsquare app main page*/
+
+.family_members {
+	background: #1ABC9C url(../images/family_members.png) no-repeat left !important;
+	background-position: 8px !important;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	width: 140px;
+	float: right;
+	padding-left: 26px;
+	margin-top: -32px;
+	margin-right: 10px;
+	margin-bottom: 3px;
+	font-size: 13px;
+}
+.logo_top_registry {
+	width: 48px;
+	left: 50%;
+	margin-left: -24px;
+	margin-top: -33px;
+}
+.registrypanel {
+	left:50%;
+	width: 350px;
+	margin-left: -175px;
+	margin-top: 30px;
+}
+.registry_inner_panel {
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+}
+.registrypanel_label {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    text-align: right;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.registry_field {
+    float: left;
+    max-width: 200px;
+}
+.expand {
+    float: right;
+    width: 100px;
+    font-size: 14px;
+    margin-left: 100px;
+    background: #ecf0f1;
+    border: 0;
+    border-radius: 0;
+}
+.submitbutton {
+	color:#fff;
+	clear: both;
+	width: 200px;
+	float: left;
+	left: 50%;
+	margin-left: -66px;
+	background: #1ABC9C;
+	border: 0;
+	border-radius: 0;
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+.registry_photo {
+	float:left;
+	max-width: 90px;
+	max-height: 90px;
+	margin-right:10px;
+}
+.registry_photo img{
+	float:left;
+	max-width: 90px;
+	max-height: 90px;
+}
+.change_photo {
+    width: 80px;
+    font-size: 12px;
+    float: left;
+    border: 0;
+    border-radius: 0;
+    background: #6F6F6F;
+    color: #fff;
+    position: relative;
+}
+.add_family_members {
+	background: transparent url(../images/adduser.png) no-repeat left !important;
+	background-size: 19px  !important;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	width: 160px;
+	float: right;
+	margin-top: -32px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	padding-left: 20px;
+	font-size: 13px;
+}
+
+.expand_head {
+	color: #cad0d1;
+	width:100%;
+	float:left;
+	background:#2c3e50;
+	text-align: center;
+	font-size: 13px;
+	padding: 3px;
+	margin-bottom: 12px;
+	margin-top: 5px;
+}
+
+.upload_button {
+	width: 60px;
+	font-size: 12px;
+	float: left;
+    border: 0;
+	background: #6F6F6F;
+	margin-left: 250px;
+	color: #fff;
+	margin-bottom: 5px;
+	border-radius: 0px;
+	margin-top: -45px;
+	height: 36px;
+}
+.withphoto {
+}
+
+.addnew_head {
+	position: relative;
+	margin-top: 10px;
+	padding: 10px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	float: left;
+	color: #00abe7;
+	font-size: 16px;
+	width: 100%;
+	background: url(../images/add_family.png) no-repeat left;
+	background-position: 10px;
+	background-size: 16px;
+	border-bottom: 1px solid #3C3C3C;
+}
+
+.family_members_panel {
+	float:left;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 70px;
+}
+.familymember {
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    padding: 5px;
+}
+#familyavatar {
+    max-width: 55px;
+    max-height: 55px;
+    float: left;
+    border-radius: 4px;
+}
+.familyname {
+    float: left;
+    margin-left: 10px;
+    line-height: 52px;
+}
+
+.attach {
+    width: 140px;
+}
+
+.notAdded {
+	font-size:15px;
+	width:100%;
+	padding:10px;
+	position: fixed;
+	top:50%;
+	margin-top:-20px;
+}
+
+@media all and (max-width: 315px) {	
+	.logo_top_registry {
+		left: 50%;
+		margin-left: 15px;
+	}
+	.family_members {
+		margin-top: 0px;
+		margin-right: 50px;
+	}
+	.add_family_members {
+		margin-top: 0px;
+		margin-right: 32px;
+	}
+	
+	.registrypanel {
+		width: 220px;
+		margin-left: -106px;
+	}
+	.registry_inner_panel {
+		margin-bottom: 0px;
+	}
+	.registrypanel_label {
+		width: 90px;
+		text-align: left;
+	}
+	.registry_field {
+    margin-top: 5px;
+	}
+	.submitbutton {
+		margin-left: -106px;
+	}
+	.registry_photo {
+	}
+	.registry_photo img{
+		max-width:100%;
+	}
+	.change_photo {
+		margin-top: 5px;
+	}
+	.expand {
+		float: left;
+	}
+	.upload_button {
+		width: 200px;
+		margin-left: 0px;
+	
+		margin-top: 0px;
+		height: 20px;
+	}
+	.attach {
+		width: 200px;
+	}
+}
+
+@media all and (min-width: 315px) and (max-width: 355px) {
+	.logo_top_registry {
+		left: 50%;
+		margin-left: -51px;
+	}
+	.family_members {
+		margin-right: 5px;
+	}
+	.add_family_members {
+		margin-right: -5px;
+	}
+	
+	.registrypanel {
+		width: 300px;
+		margin-left: -150px;
+	}
+	.registry_inner_panel {
+	}
+	.registrypanel_label {
+		width: 90px;
+		text-align: right;
+	}
+	.registry_field {
+		width: 199px;
+	}
+	.submitbutton {
+		margin-left: -51px;
+	}
+	.registry_photo {
+		max-width: 80px;
+		max-height: 90px;
+		margin-right:10px;
+	}
+	.registry_photo img{
+		max-width:100%;
+	}
+	.upload_button {
+    margin-left: 240px;
+	}
+	.change_photo {
+	}
+	.attach {
+		width: 140px;
+	}
+}
+
+@media all and (min-width: 355px) and (max-width: 395px) {
+	.logo_top_registry {
+		left: 50%;
+		margin-left: -51px;
+	}
+	.family_members {
+		margin-right: 5px;
+	}
+	.add_family_members {
+    margin-right: -5px;
+	}
+	
+	.registrypanel {
+		width: 300px;
+		margin-left: -150px;
+	}
+	.registry_inner_panel {
+	}
+	.registrypanel_label {
+		width: 90px;
+		text-align: right;
+	}
+	.registry_field {
+		width: 199px;
+	}
+	.submitbutton {
+		margin-left: -51px;
+	}
+	.registry_photo {
+	}
+	.registry_photo img{
+		max-width:100%;
+	}
+	.upload_button {
+    margin-left: 240px;
+	}
+	.change_photo {
+	}
+	.attach {
+		width: 140px;
+	}
+}
+
+@media all and (min-width: 395px) and (max-width: 475px) {
+	.logo_top_registry {
+		left: 50%;
+		margin-left: -51px;
+	}
+	.family_members {
+		margin-right: 5px;
+	}
+	.add_family_members {
+    margin-right: -5px;
+	}
+	.upload_button {
+	}
+	.withphoto {
+	
+	}
+}
+
+@media all and (min-width: 475px) and (max-width: 635px) {
+	.logo_top_registry {
+		left: 50%;
+	}
+	.family_members {
+		margin-right: 10px;
+	}
+	.add_family_members {
+	}
+	.upload_button {
+	}
+	.withphoto {
+	
+	}
+}
+
+@media all and (min-width: 635px) and (max-width: 715px) {
+	.logo_top_registry {
+		left: 50%;
+		margin-left: -40px;
+	}
+	.family_members {
+		margin-right: 10px;
+	}
+	.add_family_members {
+	}
+	.upload_button {
+	}
+	.withphoto {
+	}
+}
+
+@media all and (min-width: 715px) and (max-width: 767px) {
+	.withphoto {
+	}
+}
+
+@media all and (min-width: 768px) {
+	.withphoto {
+	}
+	
+	.addnew_head {
+		left: 50%;
+		position: relative;
+		margin-left: -200px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		float: left;
+		background: url(../images/add_family.png) no-repeat left;
+		color:#00abe7;
+		font-size:16px;
+		width: 400px;
+	}
+}

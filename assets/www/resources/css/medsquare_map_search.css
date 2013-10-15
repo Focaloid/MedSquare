@@ -5,9 +5,9 @@
 }
 
 .search_top_panel_map {
-	margin: 20px 60px 0px 15px;
+	margin: 0px 0px 0px 0px;
 	background: #2c3e50;
-	padding: 5px;
+	padding: 4px 5px 4px;
 	padding-bottom: 1px;
 }
 .search_map {
@@ -27,7 +27,7 @@
 .insurance_only_checkbox_map {
     max-width: 14px;
     min-height: 14px;
-    margin-top: 13px;
+    margin-top: 15px;
     margin-left: 7px;
 }
 .insurance_only_check_map {
@@ -76,34 +76,12 @@
 .result_map .he_details {
 	
 }
-#he_logo_map {
-	float: left;
-	width: 50px;
-	height: 35px;
-}
-.he_details_map {
-    float:left;
-    margin-left:10px;
-    width: 280px;
-}
-.he_head_map {
-    float:left;
-    text-decoration: underline;
-    font-size: 18px;
-    color: #2c3e50;
-    width: 100%;
-}
-.he_info_map{
-    float:left;
-    color: #2c3e50;
-    font-size: 12px;
-}
 
 .he_info_map_bottom {
 	color: #2c3e50;
-	padding: 10px 0px;
+	padding: 10px 5px 2px;
 	background: #fff;
-	width: 370px;
+	width: 390px;
 	position: absolute;
 	bottom: 0;
 	border-top: 1px solid #2c3e50;
@@ -173,6 +151,7 @@
 .search_filter_map {
     float: right;
     background: #cad0d1 url(../images/show_filter.png) no-repeat center;
+    background-size: 21px;
     border-radius: 0;
     border: 0;
     width: 33px;
@@ -184,9 +163,9 @@
     padding: 4px;
     width: 33px;
     position: absolute;
-    right: 15px;
+    right: 1px;
     z-index: 1;
-    top: 20px;
+    top: 0;
 }
 
 .filter_menu_map{
@@ -210,20 +189,81 @@
 #he_online {
     width: 38px;
 }
+#he_logo_map {
+	float: left;
+	width: 65px;
+	height: 42px;
+}
+
+
+.he_details_map {
+    float:left;
+    margin-left:10px;
+    width: 314px;
+}
+.he_head_map {
+    float:left;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+.he_head_map:hover {
+    background:#1ABC9C;
+}
+.he_info_map{
+    float:left;
+    color: #2c3e50;
+    font-size: 12px;
+    clear: both;
+}
+.he_stars_map {
+    float: left;
+
+}
+.he_evals_map {
+    float: left;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.he_distTime_map {
+	float: left;
+	background: url(../images/loc_small2.png) no-repeat left;
+	background-size: 10px;
+	padding-left: 14px;
+	margin-left: 5px;
+	white-space: nowrap;
+}
+
+#suggestpop_map {
+    width: 335px;
+}
+.map_sugg {
+	width: 275px;
+}
+
+.checkoutTop_map {
+	float: right;
+	margin: -32px 0px 0px 0px;
+	background: #192633 url(../images/checkout_green.png) no-repeat center;
+	background-size: 22px;
+	min-height: 22px;
+	width: 12px;
+	border: 0;
+	border-radius: 0;
+}
+
 
 @media all and (max-width: 315px) {
 	.search_top_panel_map {
-		margin: 20px 55px 0px 8px;
-		padding-bottom:3px;
 	}
 	.search_map {
-		max-width: 120px;
+		max-width: 150px;
 	}
 	.searchoptions_map {
-		margin-left: 131px;
+		margin-left: 160px;
 	}
 	.insurance_only_checkbox_map {
-		margin-top: 10px;
 		margin-left: 0px;
 	}
 	.insurance_only_check_map {
@@ -231,28 +271,24 @@
 		margin-bottom: 5px;
 		margin-top: -20px;
 		width: 90px;
-}
+	}
 	.closetome_map {
 		margin-top: -40px;
 	}
 	.closesearch_map {
-		margin-top: -34px;
+		margin-top: -37px;
 		font-size: 21px;
-	
 		margin-bottom: 2px;
-}
+	}
 	.medsquare_map {
-		margin-left: 8px;
-		max-width: 222px;
+		margin-left: 0px;
+		max-width: 240px;
 	}
 	.result_map {
 		width: 100%;
 	}
 	.he_info_map_bottom {
-		width: 222px;
-	}
-	.he_details_map {
-		width: 140px;
+		width: 230px;
 	}
 	.he_dist_time {
         margin-top: 0px;
@@ -260,17 +296,69 @@
 	}
 	.he_queue {
 		float: left;
-		margin-left: 0px;
-		margin-top: -38px;
+		margin-left: 5px;
+		margin-top: 0px;
 	}
 	.feedback {
-		margin-top: -13px;
+		margin-top: -10px;
+		background-size: 30px;
+		padding: 25px 0px 0px;
 	}
 	.filter_holder_map {
-		right: 10px;
 	}
-	.result_map .he_details {
+	#he_logo_map {
+		width: 55px;
+		height: 38px;
+	}
 	
+	.he_details_map {
+		width: 162px;
+	}
+	.he_head_map {
+		font-size: 12px;
+	}
+	.he_info_map{
+		font-size: 10px;
+		height: 29px;
+	}
+	.he_distTime_map {
+		position: absolute;
+		left: -6px;
+		margin-top: 16px;
+	}
+	.he_stars_map {
+		margin-left: 32px;
+	}
+	.he_evals_map {
+		font-size: 10px;
+		margin-left: 1px;
+	}
+	#suggestpop_map {
+		width: 183px;
+	}
+	.map_sugg {
+		width: 138px;
+	}
+	.he_queue_values {
+		font-size: 11px;
+	}
+	.he_queue_info {
+		font-size: 10px;
+		line-height: 6px;
+	}
+	#he_online {
+		width: 24px;
+	}
+	.he_online_count {
+	
+	}
+	#he_clock {
+		width: 16px;
+		height: 17px;
+	}
+	
+	.checkoutTop_map{
+		margin: -29px 0px 0px 0px;
 	}
 }
 
@@ -278,10 +366,10 @@
 	.search_top_panel_map {
 	}
 	.search_map {
-		max-width: 190px;
+		max-width: 233px;
 	}
 	.searchoptions_map {
-		margin-left: 200px;
+		margin-left: 238px;
 	}
 	.insurance_only_checkbox_map {
 		margin-left: 2px;
@@ -291,43 +379,84 @@
 		margin-bottom: 0px;
 		margin-left: 21px;
 		width: 155px;
-}
+	}
 	.closetome_map {
 	}
 	.closesearch_map {
 		float: right;
-		margin-top: -23px;
+		margin-top: -26px;
 		margin-bottom: 4px;
 	}
 	.medsquare_map {
-		margin-left: 15px;
-		max-width: 290px;
+		margin-left: 0px;
+		max-width: 320px;
 	}
 	
 	.result_map {
 		width: 100%;
 	}
 	.he_info_map_bottom {
-		width: 290px;
+		width: 310px;
 	}
+	
+	#he_logo_map {
+		width: 65px;
+		height: 42px;
+	}
+		
+	#suggestpop_map {
+		width: 263px;
+	}
+	.map_sugg {
+		width: 203px;
+	}
+	
+	
 	.he_details_map {
-		width: 210px;
+		width: 235px;
 	}
-	.he_dist_time {
-        margin-top: 0px;
+	.he_head_map {
+		font-size: 12px;
 	}
-	.he_queue {
-    margin-top: 0px;
-}
+	.he_info_map{
+		font-size: 10px;
+	}
+	.he_distTime_map {
+		position: absolute;
+		left: 70px;
+		margin-top: 0px;
+	}
+	.he_stars_map {
+		margin-left: 97px;
+	}
+	.he_evals_map {
+		font-size: 10px;
+		margin-left: 1px;
+	}
+	.he_queue_values {
+		font-size: 11px;
+	}
+	.he_queue_info {
+		font-size: 10px;
+		line-height: 6px;
+	}
+	#he_online {
+		width: 24px;
+	}
+	.he_online_count {
+	
+	}
+	#he_clock {
+		width: 16px;
+		height: 17px;
+	}
 	.feedback {
-		margin-top: -14px;
+		margin-top: -10px;
+		background-size: 30px;
+		padding: 25px 0px 0px;
 	}
-	
-    .he_stars {
-        margin-right: 5px;
-    }
-	.result_map .he_details {
-	
+	.checkoutTop_map{
+		margin: -24px 0px 0px 0px;
 	}
 }
 
@@ -335,10 +464,10 @@
 	.search_top_panel_map {
 	}
 	.search_map {
-		max-width: 215px;
+		max-width: 272px;
 	}
 	.searchoptions_map {
-		margin-left: 240px;
+		margin-left: 276px;
 	}
 	.insurance_only_checkbox_map {
 		margin-left: 7px;
@@ -354,50 +483,88 @@
 	}
 	.closesearch_map {
 		float: right;
-		margin-top: -30px;
+		margin-top: -33px;
 		margin-bottom: 4px;
 	}
 	.medsquare_map {
-		margin-left: 15px;
-		max-width: 330px;
+		margin-left: 0px;
+		max-width: 360px;
 	}
 	
 	.result_map {
 		width: 100%;
 	}
 	.he_info_map_bottom {
-		width: 330px;
+		width: 350px;
 	}
 	.result_map {
     width: 100%;
     }
+		
+	#suggestpop_map {
+		width: 302px;
+	}
+	.map_sugg {
+		width: 242px;
+	}
+	
 	.he_details_map {
-		width: 215px;
+		width: 275px;
 	}
-	.he_dist_time {
-        margin-top: 0px;
+	.he_head_map {
+		font-size: 13px;
 	}
-	.he_queue {
-		margin-left: -5px;
-		margin-top: 2px;
+	.he_info_map{
+		font-size: 11px;
+	}
+	.he_distTime_map {
+		position: absolute;
+		left: 70px;
+		margin-top: 0px;
+	}
+	.he_stars_map {
+		margin-left: 112px;
+	}
+	.he_evals_map {
+		font-size: 10px;
+		margin-left: 5px;
+	}
+	.he_queue_values {
+		font-size: 11px;
+	}
+	.he_queue_info {
+		font-size: 10px;
+		line-height: 6px;
+	}
+	#he_online {
+		width: 24px;
+	}
+	.he_online_count {
+	
+	}
+	#he_clock {
+		width: 16px;
+		height: 17px;
 	}
 	.feedback {
-		margin-top: -12px;
+		margin-top: -10px;
+		background-size: 30px;
+		padding: 25px 0px 0px;
 	}
-	.result_map .he_details {
-	
+	.checkoutTop_map{
+		margin: -31px 0px 0px 0px;
 	}
 }
 
 @media all and (min-width: 395px) and (max-width: 475px) {
 	.search_top_panel_map {
-}
+	}
 	.search_map {
-		max-width: 270px;
+		max-width: 313px;
 	}
 	.searchoptions_map {
-		margin-left: 280px;
-}
+		margin-left: 318px;
+	}
 	.insurance_only_checkbox_map {
 		margin-left: 7px;
 	}
@@ -408,15 +575,91 @@
 	}
 	.closesearch_map {
 		float: right;
-		margin-top: -31px;
+		margin-top: -34px;
 		margin-bottom: 4px;
 	}
 	.medsquare_map {
-		margin-left: 15px;
-		max-width: 370px;
+		margin-left: 0px;
+		max-width: 400px;
 	}
-	.result_map .he_details {
+	#he_logo_map {
+		width: 65px;
+		height: 42px;
+	}
+		
+	#suggestpop_map {
+		width: 335px;
+	}
+	.map_sugg {
+		width: 275px;
+	}
 	
+	.result_map {
+		width: 100%;
+	}
+	.he_info_map_bottom {
+		width: 390px;
+	}
+	.result_map {
+		width: 100%;
+    }
+		
+	#suggestpop_map {
+		width: 343px;
+	}
+	.map_sugg {
+		width: 283px;
+	}
+	
+	
+	.he_details_map {
+		width: 315px;
+	}
+	.he_head_map {
+	}
+	.he_info_map{
+    font-size: 11px;
+	}
+	.he_distTime_map {
+		position: absolute;
+		left: 70px;
+		margin-top: 0px;
+	}
+	.he_stars_map {
+		margin-left: 112px;
+	}
+	.he_evals_map {
+		font-size: 10px;
+		margin-left: 5px;
+	}
+	.he_queue_values {
+		font-size: 11px;
+	}
+	.he_queue_info {
+		font-size: 10px;
+		line-height: 6px;
+	}
+	#he_online {
+		width: 24px;
+	}
+	.he_online_count {
+	
+	}
+	#he_clock {
+		width: 16px;
+		height: 17px;
+	}
+	.feedback {
+		margin-top: -10px;
+		background-size: 30px;
+		padding: 25px 0px 0px;
+	}
+	
+	#he_logo_map {
+		width: 65px;
+		height: 42px;
+	}
+	.checkoutTop_map{
 	}
 }
 
@@ -424,10 +667,10 @@
 	.search_top_panel_map {
 	}
 	.search_map {
-		max-width: 335px;
+		max-width: 393px;
 	}
 	.searchoptions_map {
-		margin-left: 360px;
+		margin-left: 398px;
 	}
 	.insurance_only_checkbox_map {
 		margin-left: 7px;
@@ -441,35 +684,83 @@
 	}
 	.closesearch_map {
 		float: right;
-		margin-top: -30px;
+		margin-top: -34px;
 		margin-bottom: 5px;
 	}
 	.medsquare_map {
-		margin-left: 15px;
-		max-width: 450px;
+		margin-left: 0px;
+		max-width: 480px;
 	}
-	
 	
 	.he_info_map_bottom {
-		width: 450px;
+		width: 470px;
 	}
-	.he_queue {
-		margin-left: 65px;
+	#he_logo_map {
+		width: 76px;
+		height: 50px;
 	}
-	.result_map .he_details {
+		
+	#suggestpop_map {
+		width: 423px;
+	}
+	.map_sugg {
+		width: 363px;
+	}
+	
+	.he_details_map {
+		width: 315px;
+	}
+	.he_head_map {
+	}
+	.he_info_map{
+	}
+	.he_distTime_map {
+		position: absolute;
+		left: 81px;
+		margin-top: 0px;
+	}
+	.he_stars_map {
+		margin-left: 135px;
+	}
+	.he_evals_map {
+		margin-left: 35px;
+	}
+	.he_queue_values {
+		font-size: 11px;
+	}
+	.he_queue_info {
+		font-size: 10px;
+		line-height: 6px;
+	}
+	#he_online {
+		width: 24px;
+	}
+	.he_online_count {
 	
 	}
+	#he_clock {
+		width: 16px;
+		height: 17px;
+	}
 	
+	.feedback {
+		margin-top: -10px;
+		background-size: 30px;
+		padding: 25px 0px 0px;
+	}
+	.checkoutTop_map{
+		margin: -32px 0px 0px 0px;
+	}
 }
 
 @media all and (min-width: 635px) and (max-width: 715px) {
 	.search_top_panel_map {
 	}
 	.search_map {
-		max-width: 500px;
+		max-width: 553px;
 	}
 	.searchoptions_map {
-		margin-left: 520px;
+		margin-left: 558px;
 	}
 	.insurance_only_checkbox_map {
 		margin-left: 7px;
@@ -483,22 +774,23 @@
 	}
 	.closesearch_map {
 		float: right;
-		margin-top: -30px;
+		margin-top: -34px;
 		margin-bottom: 5px;
 	}
 	.medsquare_map {
-		margin-left: 15px;
-		max-width: 610px;
+		margin-left: 0px;
+		max-width: 640px;
 	}
 	
 	.result_map {
 		width: 344px;
+		margin-bottom: 0px;
 	}
 	.he_info_map_bottom {
-		width: 610px;
+		width: 630px;
 	}
 	.he_details_map {
-		width: 200px;
+		width: 254px;
 	}
 	.he_dist_time {
         margin-top: 11px;
@@ -511,19 +803,44 @@
 		margin-top: -2px;
 	}
 	.result_map .he_details {
-    width: 250px;
-	
+		width: 228px;
+	}
+	#he_logo_map {
+		width: 80px;
+		height: 50px;
+	}
+		
+	#suggestpop_map {
+		width: 583px;
+	}
+	.map_sugg {
+		width: 523px;
+	}
+	.he_distTime_map {
+		position: absolute;
+		left: 85px;
+		margin-top: 0px;
+	}
+	.he_stars_map {
+		margin-left: 115px;
+	}
+	.he_evals_map {
+		font-size: 11px;
+		margin-left: 5px;
+	}
+	.checkoutTop_map{
+		margin: -32px 0px 0px 0px;
 	}
 }
 
-@media all and (min-width: 715px) and (max-width: 795px) {
+@media all and (min-width: 715px) and (max-width: 767px) {
 	.search_top_panel_map {
 	}
 	.search_map {
-		max-width: 585px;
+		max-width: 633px;
 	}
 	.searchoptions_map {
-		margin-left: 600px;
+		margin-left: 638px;
 	}
 	.insurance_only_checkbox_map {
 		margin-left: 7px;
@@ -537,23 +854,24 @@
 	}
 	.closesearch_map {
 		float: right;
-		margin-top: -30px;
-	
+		margin-top: -33px;
 		margin-bottom: 5px;
-}
+	}
 	.medsquare_map {
-		margin-left: 15px;
-		max-width: 690px;
+		margin-left: 0px;
+		max-width: 720px;
 	}
 	
 	.result_map {
 		width: 394px;
+		margin-bottom: 0px;
 	}
 	.he_info_map_bottom {
-		width: 690px;
+		width: 710px;
+		padding: 10px 5px 4px;
 	}
 	.he_details_map {
-		width: 245px;
+		width: 298px;
 	}
 	.he_dist_time {
         margin-top: 11px;
@@ -566,17 +884,44 @@
 		margin-top: -2px;
 	}
 	.result_map .he_details {
-    width: 300px;
-	
+		width: 252px;
+	}
+	#he_logo_map {
+		width: 85px;
+		height: 55px;
 	}
 	
+	#suggestpop_map {
+		width: 663px;
+	}
+	.map_sugg {
+		width: 603px;
+	}
+	.he_distTime_map {
+		position: absolute;
+		left: 90px;
+		margin-top: 0px;
+	}
+	.he_stars_map {
+		margin-left: 125px;
+	}
+	.he_evals_map {
+		font-size: 12px;
+		margin-left: 5px;
+	}
+	.checkoutTop_map{
+		margin: -32px 0px 0px 0px;
+	}
 }
 
-@media all and (min-width: 796px) {
+@media all and (min-width: 768px) {
 	.search_top_panel_map {
-		width: 708px;
+		width: 690px;
 		left: 50%;
-		margin-left: -383px;
+		margin-left: -374px;
+		margin-top: 10px;
+	
+		height: 37px;
 	}
 	.search_map {
 		max-width: 310px;
@@ -586,12 +931,11 @@
 	}
 	.insurance_only_checkbox_map {
 		margin-left: 370px;
-	
 		margin-top: -23px;
-}
+	}
 	.insurance_only_check_map {
 		margin-top: -14px;
-		margin-bottom: 13px;
+		margin-bottom: 10px;
 		margin-left: 390px;
 	}
 	.closetome_map {
@@ -601,16 +945,17 @@
 		margin-top: -38px;
 	}
 	.medsquare_map {
-        max-width: 765px;
+        max-width: 748px;
         left: 50% !important;
-        margin-left: -383px;
+        margin-left: -374px;
     }
 	
 	.result_map {
-		width: 438px;
+		width: 490px;
+		margin-bottom: 0px;
 	}
 	.he_info_map_bottom {
-		width: 765px;
+		width: 738px;
 	}
 	.he_details_map {
 		width: 215px;
@@ -619,7 +964,7 @@
         margin-top: 11px;
 	}
 	.he_queue {
-		margin-left: 75px;
+		margin-left: 0px;
 		margin-top: 13px;
 	}
 	.feedback {
@@ -627,11 +972,41 @@
 	}
     .filter_holder_map {
 		left: 50%;
-		margin-left: 339px;
-		padding: 5px;
-	}
+		margin-left: 331px;
+		padding: 4px 5px 5px 5px;
+		margin-top: 10px;
+    }
 	.result_map .he_details {
-    width: 345px;
-	
+		width: 345px;
+	}
+	#he_logo_map {
+		width: 90px;
+		height: 55px;
+	}
+		
+	#suggestpop_map {
+		width: 350px;
+	}
+	.map_sugg {
+		width: 290px;
+	}
+	.checkoutTop_map{
+		margin: -34px 0px 0px 0px;
+	}
+}
+
+
+@media all and (max-width: 767px) {
+	.search_top_panel_map {
+		height: 75px;
+	}
+	.insurance_only_check_map {
+		margin-top: -15px;
+		width: 160px;
+	}
+		
+	#suggestpop_map {
+	}
+	.map_sugg {
 	}
 }

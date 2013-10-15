@@ -5,7 +5,7 @@
 }
 
 .medsquare_route {
-	margin: 0px 15px 2px;
+	margin: 0px 0px 2px;
 }
 #googleroutemap .x-dock.x-sized > .x-dock-body {
 	background:#fff !important;
@@ -18,10 +18,11 @@
 }
 .route_top_panel_inner {
     left: 50%;
-    margin-left: -88px;
+    margin-left: -78px;
 }
 .route_button,.car_button,.bus_button,.walk_button,.cycle_button,.plane_button {
 	background: transparent url(../images/route_buttons.png) no-repeat center center;
+	background-size: 215px;
 	border:0;
 	border-radius:0;
 	width: 35px;
@@ -30,50 +31,47 @@
 	padding: 0;
 }
 .route_button {
+    float: left;
     background-position: 5px 4px;
 }
 .car_button {
-    background-position: -51px 4px;
+    background-position: -40px 5px;
 }
 .bus_button {
-    background-position: -108px 4px;
+    background-position: -86px 4px;
 }
 .walk_button {
-    background-position: -166px 4px;
+    background-position: -135px 4px;
 }
 .cycle_button {
-    background-position: -222px 4px;
+    background-position: -183px 4px;
 }
 .plane_button {
     background-position: -280px 4px;
 }
+.route_button.activebutton {
+    background-position: 5px -28px;
+}
+.car_button.activebutton {
+    background-position: -40px -28px;
+}
+.bus_button.activebutton {
+    background-position: -86px -28px;
+}
+.walk_button.activebutton {
+    background-position: -135px -30px;
+}
+.cycle_button.activebutton {
+    background-position: -183px -29px;
+}
+.plane_button.activebutton {
+    background-position: -280px -28px;
+}
 
 .logo_panel {
     background: #2c3e50;
-    margin: 0 15px;
+    margin: 0;
     padding: 2px;
-}
-.back_button {
-    border: 0;
-    border-radius: 0;
-    width: 58px;
-    font-size: 13px;
-    background:#192633;
-    margin-left: 21px;
-    color: #fff;
-    padding:8px 10px;
-    margin-top: 5px;
-    min-height: 10px;
-}
-.back_button_extra {
-    position: absolute;
-    top: 6px;
-    left: 1px;
-    content: '';
-    border-top: solid 17px transparent;
-    border-left: solid 8px transparent;
-    border-right: solid 15px #192633;
-    border-bottom: solid 17px transparent;
 }
 .logo_top {
     width: 48px;
@@ -82,6 +80,30 @@
     margin-top: -33px;
 }
 
+.back_button {
+    border: 0;
+    border-radius: 0;
+    width: 75px;
+    font-size: 13px;
+    background: url(../images/backbutton.png) no-repeat center;
+    margin-left: 12px;
+    color: #fff;
+    padding:8px 10px;
+    margin-top: 5px;
+    min-height: 10px;
+    background-size: 77px 28px;
+}
+.back_button:hover {
+    background: url(../images/backbutton_active.png) no-repeat center;
+    background-size: 77px 28px;
+}
+.back_button.x-button-pressing {
+    background: url(../images/backbutton_active.png) no-repeat center !important;
+    background-size: 77px 28px !important;
+}
+.back_button .x-button-label {
+	margin-left: 10px;
+}
 
 @media all and (max-width: 315px) {
 	.logo_top {
@@ -118,9 +140,6 @@
 	
 }
 
-.he_details_main {
-
-}
 .he_details_main .result {
 	background:#fff;
 	margin: 0px 7px;
@@ -130,7 +149,23 @@
 	background:#455565;
 	border: 0;
 	border-radius: 0;
-	right: 15px;
+	right: 4px;
 	padding: 0px 10px;
 	position: absolute;
+}
+
+.route_right_panel {
+    position: absolute;
+    right: 0;
+    width: 35px;
+    background: rgba(255, 255, 255, 0.76);
+}
+.fullscreen_button {
+	float: left;
+	background:url(../images/fullscreen.png) no-repeat center;
+	background-size: 70%;
+	padding: 0;
+	width: 35px;
+	height: 35px;
+	border: 0;
 }

@@ -1,13 +1,12 @@
 /* additional css rules for medsquare app main page*/
 
 .search_top_panel {
-	margin: 20px 60px 20px 15px;
+	margin: 0px 0px 5px 0px;
 	background: #2c3e50;
-	padding: 5px;
+	padding: 4px 5px 3px;
 }
 .search {
     max-width: 320px;
-	
     min-height: 33px;
 }
 .searchoptions {
@@ -24,7 +23,7 @@
 .insurance_only_checkbox {
     max-width: 14px;
     min-height: 14px;
-    margin-top: 13px;
+    margin-top: 15px;
     margin-left: 7px;
 }
 .insurance_only_check {
@@ -58,14 +57,17 @@
 }
 
 .searchresults {
-    margin: 0px 20px;
+    margin: 0px 0px;
+    margin-bottom: 70px;
+    float: left;
 }
 .result {
 	float: left;
 	width:100%;
 	padding: 8px 8px;
 	background:url(../images/odd_right.png) no-repeat;
-	background-position:90% center;
+	background-position: 95% center;
+	background-size: 12px;
 }
 #he_logo {
 	float: left;
@@ -97,6 +99,7 @@
 .search_filter {
     float: right;
     background: #cad0d1 url(../images/show_filter.png) no-repeat center;
+    background-size: 21px;
     border-radius: 0;
     border: 0;
     width: 33px;
@@ -107,9 +110,9 @@
     padding: 4px;
     width: 41px;
     position: absolute;
-    right: 15px;
+    right: 1px;
     z-index: 1;
-    top: 20px;
+    top: 0px;
 }
 
 .filter_menu {
@@ -128,15 +131,15 @@
 
 .even  {
 	background:#ecf0f1 url(../images/even_right.png) no-repeat;
-	background-position:90% center;
+	background-position: 95% center;
+	background-size: 12px;
 }
 
 .he_distTime {
     background: url(../images/loc_small.png) no-repeat left;
     padding-left: 14px;
     margin-left: 5px;
-    font-size: 12px;
-    background-size: 10%;
+    background-size: 10px;
     white-space: nowrap;
 }
 .he_details_main .he_distTime:hover {
@@ -144,11 +147,11 @@
 }
 .even .he_distTime {
     background: url(../images/loc_small2.png) no-repeat left;
-    background-size: 10%;
+    background-size: 10px;
 }
 .result_map .he_distTime {
     background: url(../images/loc_small2.png) no-repeat left;
-    background-size: 10%;
+    background-size: 12px;
 }
 
 .he_stars {
@@ -157,16 +160,19 @@
     margin-top: 5px;
     margin-right: 15px;
 }
-.active.star{
+.staractive.star{
     float: left;
 	background:url(../images/star_active.png) no-repeat center;
-	width:10px;
+	
+    background-size: 10px;
+    width:10px;
 	height:11px;
 }
 .star {
     float: left;
 	background:url(../images/star.png) no-repeat center;
-	width:10px;
+	background-size: 10px;
+    width:10px;
 	height:11px;
     margin-right: 3px;
 }
@@ -222,6 +228,19 @@
     margin-top: 1px;
 }
 
+.checkoutTop_he {
+	float: right;
+	margin: -28px 0px 0px 0px;
+	width: 34px;
+	border: 0;
+	border-radius: 0;
+	background-color: #192633 !important;
+	background-image: url(../images/checkout_green.png) !important;
+	background-repeat: no-repeat;
+	background-size: 22px;
+	background-position: center;
+}
+
 @media all and (max-width: 315px) {
     
     #he_logo {
@@ -229,44 +248,78 @@
         height: 35px;
     }
 	.search_top_panel {
-		margin: 20px 55px 20px 8px;
 	}
 	.search {
-		max-width: 132px;
+		max-width: 160px;
 	}
 	.searchoptions {
-		margin-left: 132px;
+		margin-left: 160px;
 	
-}
+	}
 	.insurance_only_checkbox {
-		margin-top: 10px;
+		margin-top: 15px;
 		margin-left: 0px;
-}
+	}
 	.insurance_only_check {
 		margin-left: 18px;
 		margin-top: -20px;
 		width: 90px;
 		margin-bottom: 4px;
-}
-	.closetome {
-		margin-top: -40px;
 	}
 	.closesearch {
-		margin-top: -33px;
+		margin-top: -36px;
 		font-size: 21px;
 	}
 	
 	.searchresults {
-        margin: 0px 11px;
+        margin: 0px 0px;
     }
     .result {
-    	width: 220px;
     }
     .he_details {
         width: 148px;
     }
 	.filter_holder {
-		right: 10px;
+		right: 0px;
+	}
+	
+	.he_head {
+		font-size: 11px;
+	
+		height: 32px;
+}
+	.he_info {
+		font-size: 10px;
+		line-height: 13px;
+	
+		margin-left: -55px;
+}
+	.he_stars {
+		margin-left: -54px;
+	}
+	.he_queueTime {
+		margin-left: -54px;
+		font-size: 10px;
+		padding-left: 16px;
+		background-size: 13px;
+		line-height: 16px;
+	}
+	.he_dateTime {
+		margin-left: -10px;
+		font-size: 10px;
+		line-height: 19px;
+	}
+	.he_onlineCount {
+		margin-left: 104px;
+		margin-top: -30px;
+		font-size: 10px;
+	}
+	.he_evals {
+		font-size:10px
+	}
+	.checkoutTop_he {
+		margin: -28px 0px 0px 0px;
+		width: 34px;
 	}
 }
 
@@ -279,10 +332,10 @@
 	.search_top_panel {
 	}
 	.search {
-		max-width: 201px;
+		max-width: 240px;
 	}
 	.searchoptions {
-		margin-left: 200px;
+		margin-left: 240px;
 	}
 	.insurance_only_checkbox {
 		margin-left: 2px;
@@ -293,26 +346,69 @@
 		margin-left: 21px;
 		width: 150px;
     }
-	.closetome {
-		margin-top: -37px;
-		margin-right: 44px;
-	}
 	.closesearch {
 		float: right;
-		margin-top: -23px;
+		margin-top: -26px;
+		margin-bottom: 2px;
 	}
 	
 	.searchresults {
-        margin: 0px 15px;
     }
     .result {
-    	width: 290px;
     }
     .he_details {
-        width: 208px;
+        width: 238px;
     }
 	
 	.filter_holder {
+	}
+	.he_head {
+		font-size: 11px;
+	}
+	.he_info {
+    	font-size: 11px;
+	}
+	.he_distTime {
+		position: absolute;
+		margin-left: -54px;
+		margin-top: 2px;
+	}
+	.he_stars {
+		margin-left: 50px;
+	}
+	.he_queueTime {
+		margin-left: -54px;
+		font-size: 10px;
+		padding-left: 18px;
+		background-size: 14px;
+		line-height: 17px;
+	}
+	.he_dateTime {
+		margin-left: -10px;
+		font-size: 10px;
+		line-height: 17px;
+	}
+	.he_onlineCount {
+		margin-left: 95px;
+		margin-top: -17px;
+		font-size: 11px;
+		line-height: 9px;
+	}
+	#online5 {
+		width: 22px;
+	}
+	#online1 {
+		width: 22px;
+	}
+	#online3 {
+		width: 22px;
+	}
+	.he_evals {
+		font-size: 11px;
+	}
+	.checkoutTop_he {
+		margin: -24px 0px 0px 0px;
+		width: 34px;
 	}
 }
 
@@ -325,10 +421,10 @@
 	.search_top_panel {
 	}
 	.search {
-		max-width: 241px;
+		max-width: 280px;
 	}
 	.searchoptions {
-		margin-left: 240px;
+		margin-left: 280px;
 	}
 	.insurance_only_checkbox {
 		margin-left: 7px;
@@ -337,28 +433,68 @@
 		margin-top: -14px;
 		margin-bottom: 7px;
 		margin-left: 27px;
-	
-}
-	.closetome {
-		margin-top: -30px;
-		margin-right: 2px;
-    }
+	}
 	.closesearch {
 		float: right;
-		margin-top: -30px;
+		margin-top: -33px;
+		margin-bottom: 2px;
 	}
 	
 	.searchresults {
-        margin: 0px 15px;
     }
     .result {
-    	width: 330px;
     }
     .he_details {
-        width: 243px;
+        width: 272px;
     }
-	
 	.filter_holder {
+	}
+	.he_head {
+    font-size: 12px;
+	}
+	.he_info {
+    font-size: 11px;
+	}
+	.he_stars {
+		margin-left: 65px;
+	}
+	.he_queueTime {
+		margin-left: -54px;
+		padding-left: 18px;
+		font-size: 11px;
+		line-height: 16px;
+		background-size: 15px;
+	}
+	.he_dateTime {
+		font-size: 11px;
+		line-height: 16px;
+	}
+	.he_onlineCount {
+		margin-left: 95px;
+		margin-top: -17px;
+		font-size: 11px;
+		line-height: 10px;
+	}
+	#online5 {
+		width: 24px;
+	}
+	#online1 {
+		width: 22px;
+	}
+	#online3 {
+		width: 22px;
+	}
+	.he_evals {
+		font-size: 11px;
+	}
+	.he_distTime {
+		position: absolute;
+		margin-left: -54px;
+		margin-top: 2px;
+	}
+	.checkoutTop_he {
+		margin: -31px 0px 0px 0px;
+		width: 34px;
 	}
 }
 
@@ -371,42 +507,72 @@
 	.search_top_panel {
 	}
 	.search {
-		max-width: 281px;
+		max-width: 320px;
 	}
 	.searchoptions {
-		margin-left: 280px;
+		margin-left: 320px;
 	}
 	.insurance_only_checkbox {
 		margin-left: 7px;
 	}
 	.insurance_only_check {
 		margin-top: -14px;
-		margin-bottom: 3px;
+		margin-bottom: 4px;
 		margin-left: 26px;
-	
     }
-	.closetome {
-		margin-top: -37px;
-		margin-right: 44px;
-	}
 	.closesearch {
 		float: right;
-		margin-top: -26px;
+		margin-top: -30px;
+		margin-bottom: 2px;
 	}
-	
-	.searchresults {
-        margin: 0px 15px;
-    }
     .result {
-    	width: 370px;
-    
-    	background-position: 98% center;
-}
+		background-position: 96% center;
+	}
     .he_details {
-        width: 278px;
+        width: 308px;
     }
-	
 	.filter_holder {
+	}
+	.he_head {
+    font-size: 13px;
+	}
+	.he_info {
+	}
+	.he_stars {
+		margin-left: 72px;
+	
+		margin-right: 20px;
+}
+	.he_queueTime {
+		margin-left: -54px;
+		font-size: 11px;
+		padding-left: 22px;
+	}
+	.he_dateTime {
+	}
+	.he_onlineCount {
+    line-height: 13px;
+	}
+	#online5 {
+		width: 24px;
+	}
+	#online1 {
+		width: 22px;
+	}
+	#online3 {
+		width: 22px;
+	}
+	.he_evals {
+		font-size: 11px;
+	}
+	.he_distTime {
+		position: absolute;
+		margin-left: -54px;
+		margin-top: 2px;
+	}
+	.checkoutTop_he {
+		margin: -28px 0px 0px 0px;
+		width: 34px;
 	}
 }
 
@@ -419,55 +585,51 @@
 	.search_top_panel {
 	}
 	.search {
-		max-width: 361px;
+		max-width: 400px;
 	}
 	.searchoptions {
-		margin-left: 360px;
+		margin-left: 400px;
 	}
 	.insurance_only_checkbox {
 		margin-left: 7px;
 	}
 	.insurance_only_check {
 		margin-top: -14px;
-		margin-bottom: 12px;
+		margin-bottom: 9px;
 		margin-left: 26px;
-	}
-	.closetome {
-		margin-top: -37px;
-		margin-right: 44px;
 	}
 	.closesearch {
 		float: right;
-		margin-top: -34px;
+		margin-top: -35px;
 	}
 	
 	.searchresults {
-        margin: 0px 15px;
     }
     .result {
-    background-position: 98% center;
+    background-position: 96% center;
     }
     .he_details {
-        width: 353px;
+        width: 383px;
     }
-	
-	.filter_holder {
+	.checkoutTop_he {
+		margin: -33px 0px 0px 0px;
+		width: 34px;
 	}
 }
 
 @media all and (min-width: 635px) and (max-width: 715px) {
     
     #he_logo {
-        width: 80px;
-        height: 47px;
+        width: 105px;
+        height: 62px;
     }
 	.search_top_panel {
 	}
 	.search {
-		max-width: 521px;
+		max-width: 560px;
 	}
 	.searchoptions {
-		margin-left: 520px;
+		margin-left: 560px;
 	}
 	.insurance_only_checkbox {
 		margin-left: 7px;
@@ -477,41 +639,37 @@
 		margin-bottom: 12px;
 		margin-left: 26px;
 	}
-	.closetome {
-		margin-top: -37px;
-		margin-right: 44px;
-	}
 	.closesearch {
 		float: right;
-		margin-top: -34px;
+		margin-top: -36px;
 	}
 	
 	.searchresults {
-        margin: 0px 15px;
     }
     .result {
     }
     .he_details {
-        width: 503px;
+        width: 508px;
     }
-	
-	.filter_holder {
+	.checkoutTop_he {
+		margin: -36px 0px 0px 0px;
+		width: 34px;
 	}
 }
 
-@media all and (min-width: 715px) and (max-width: 795px) {
+@media all and (min-width: 715px) and (max-width: 767px) {
     
     #he_logo {
-        width: 80px;
-        height: 47px;
+        width: 130px;
+        height: 80px;
     }
 	.search_top_panel {
 	}
 	.search {
-		max-width: 601px;
+		max-width: 640px;
 	}
 	.searchoptions {
-		margin-left: 600px;
+		margin-left: 640px;
 	}
 	.insurance_only_checkbox {
 		margin-left: 7px;
@@ -521,41 +679,42 @@
 		margin-bottom: 12px;
 		margin-left: 26px;
 	}
-	.closetome {
-		margin-top: -37px;
-		margin-right: 44px;
-	}
 	.closesearch {
 		float: right;
-		margin-top: -34px;
+		margin-top: -36px;
 	}
 	
 	.searchresults {
-        margin: 0px 15px;
     }
     .result {
     }
     .he_details {
-        width: 583px;
+        width: 498px;
     }
 	.filter_holder {
 	}
+	.checkoutTop_he {
+		margin: -36px 0px 0px 0px;
+		width: 34px;
+	}
 }
 
-@media all and (min-width: 796px) {
+@media all and (min-width: 768px) {
     
     #he_logo {
-        width: 80px;
-        height: 47px;
+        width: 130px;
+        height: 75px;
     }
 	.search_top_panel {
-		margin: 20px 0px 20px 15px;
-		width: 718px;
+		margin: 10px 0px 20px 0px;
+		width: 700px;
 		left: 50%;
-		margin-left: -383px;
+		margin-left: -374px;
+		padding: 5px 5px 5px;
 	}
 	.search {
 		max-width: 326px;
+	
 	}
 	.searchoptions {
 		margin-top: -33px;
@@ -567,33 +726,45 @@
 	}
 	.insurance_only_check {
 		margin-top: -14px;
-		margin-bottom: 9px;
+		margin-bottom: 8px;
 		margin-left: 390px;
-	}
-	.closetome {
-		margin-top: -37px;
-		margin-right: 44px;
 	}
 	.closesearch {
 		float: right;
-		margin-top: -34px;
+		margin-top: -36px;
 	}
 	
 	.searchresults {
 		left: 50%;
-		margin-left: -382px;
-		max-width: 700px;
+		margin-left: -374px;
+		max-width: 100%;
+		margin-right: 10px;
     }
     .result {
-		width: 765px;
+		width: 748px;
     }
     .he_details {
-        width: 650px;
+        width: 552px;
     }
 	.filter_holder {
 		left: 50%;
-		margin-left: 339px;
+		margin-left: 331px;
 		padding: 5px;
 		width: 43px;
+		margin-top: 10px;
+    }
+	.checkoutTop_he {
+		margin: -33px 0px 0px 0px;
+		width: 34px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.search_top_panel {
+		height: 80px;
+	}
+	.insurance_only_check {
+		margin-top: -15px;
+		width: 160px;
 	}
 }

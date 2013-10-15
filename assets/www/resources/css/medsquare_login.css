@@ -74,9 +74,9 @@
     margin-left: -115px;
 }
 .remember_check {
-	max-width: 14px;
+	max-width: 16px;
     
-	min-height: 14px;
+	min-height: 16px;
     
 	margin-top: 14px;
 	background: #ecf0f1;
@@ -91,9 +91,9 @@
 }
 #forgetpass {
     text-align: center;
-    margin-top: -21px;
+    margin-top: 10px;
     left: 50%;
-    margin-left: 0px;
+    margin-left: -55px;
     background: transparent;
     border-radius: 0;
     border: 0;
@@ -104,7 +104,7 @@
 }
 .loginbutton {
 	max-width:257px;
-	margin-top: 10px;
+	margin-top: 5px;
 	border-radius: 0;
 	background: #1abc9c;
 	color: #fff;
@@ -170,49 +170,59 @@
 #createnew .x-button-label {
     font-weight: normal;
 }
+.mailto {
+	float: left;
+	font-size: 14px;
+	margin-top: 45px;
+	left: 50%;
+	margin-left: -105px;
+}
 
+@media all and (min-width: 768px) {
+	
+}
 @media all and (max-width: 315px) {
 	.fbbutton {
-		max-width: 215px;
+		max-width: 240px;
 		left: 50%;
-		margin-left: -108px;
+		margin-left: -120px;
 	}
 	
 	#logininputemail {
-		max-width: 215px;
+		max-width: 240px;
 		width: 100%;
-		margin-left: -107px;
+		margin-left: -120px;
 	}
 	#logininputpass {
-		max-width: 215px;
+		max-width: 240px;
 		width: 100%;
-		margin-left: -107px;
+		margin-left: -120px;
 	}
 	
 	.icons {
-		margin-left: 80px;
+		margin-left: 92px;
 	}
 	.remember_panel {
 		margin-left: -76px;
 	}
 	#forgetpass {
-		margin-top: 0px;
+		margin-top: 10px;
 		margin-left: -68px;
 	}
 	.loginbutton {
-		max-width: 215px;
-		margin-left: -106px;
+		max-width: 240px;
+		margin-left: -120px;
 	}
 	.establishment {
-		max-width: 216px;
-		margin-left: 14px;
-		background-position: -196px;
+		max-width: 240px;
+		margin-left: 0px;
+		background-position: -172px;
 		clear: both;
 	}
 	
 	.contactus {
-		max-width: 216px;  
-		margin-left: 14px;
+		max-width: 240px;  
+		margin-left: 0px;
 	}
 	.donthave {
 		margin-left: -112px;
@@ -239,30 +249,30 @@
 
 @media all and (min-width: 315px) and (max-width: 355px) {
 	.fbbutton {
-		max-width: 294px;
+		max-width: 320px;
 		left: 50%;
-		margin-left: -147px;
+		margin-left: -160px;
 	}
 	
 	#logininputemail {
-		max-width: 292px;
+		max-width: 320px;
 		width: 100%;
-		margin-left: -146px;
+		margin-left: -160px;
 	}
 	#logininputpass {
-		max-width: 292px;
+		max-width: 320px;
 		width: 100%;
-		margin-left: -146px;
+		margin-left: -160px;
 	}
 	
 	.icons {
-		margin-left: 117px;
+		margin-left: 130px;
 	}
 	.remember_panel {
 		margin-left: -62px;
 	}
 	#forgetpass {
-		margin-top: 0px;
+		margin-top: 10px;
 		margin-left: -58px;
 	}
 	.loginbutton {
@@ -271,81 +281,83 @@
 	}
 
 	.establishment {
-		max-width: 294px;
-		margin-left: 15px;  
-		background-position: -119px;
+		max-width: 320px;
+		margin-left: 0px;  
+		background-position: -92px;
 		padding-right: 20px;
 	}
 	.contactus {
-		max-width: 294px;  
-		margin-left: 14px;
+		max-width: 320px;  
+		margin-left: 0px;
 	}
 }
 
 @media all and (min-width: 355px) and (max-width: 395px) {
 	.fbbutton {
-		max-width: 329px;
+		max-width: 360px;
 		left: 50%;
-		margin-left: -164px;
+		margin-left: -180px;
 	}
 	
 	#logininputemail {
-		max-width: 329px;
+		max-width: 360px;
 		width: 100%;
-		margin-left: -164px;
+		margin-left: -180px;
 	}
 	#logininputpass {
-		max-width: 329px;
+		max-width: 360px;
 		width: 100%;
-		margin-left: -164px;
+		margin-left: -180px;
 	}
 	
 	.icons {
-		margin-left: 138px;
+		margin-left: 150px;
 	}
 	.remember_panel {
 		left: 50%;
 		margin-left: -114px;
 	}
 	#forgetpass {
-	}
+	
+    
+}
 	.loginbutton {
 		max-width: 215px;
 		margin-left: -107px;
 	}
 
 	.establishment {
-		max-width: 331px;
-		margin-left: 15px;
-		background-position: -82px;
+		max-width: 360px;
+		margin-left: 0px;
+		background-position: -52px;
 		padding-right: 20px;
 	}
 	.contactus {
-		max-width: 331px;  
-		margin-left: 15px;
+		max-width: 360px;  
+		margin-left: 0px;
 	}
 }
 
 @media all and (min-width: 395px) and (max-width: 475px) {
 	.fbbutton {
-		max-width: 369px;
+		max-width: 400px;
 		left: 50%;
-		margin-left: -184px;
+		margin-left: -200px;
 	}
 	
 	#logininputemail {
-		max-width: 369px;
+		max-width: 400px;
 		width: 100%;
-		margin-left: -184px;
+		margin-left: -200px;
 	}
 	#logininputpass {
-		max-width: 369px;
+		max-width: 400px;
 		width: 100%;
-		margin-left: -184px;
+		margin-left: -200px;
 	}
 	
 	.icons {
-		margin-left: 158px;
+		margin-left: 170px;
 	}
 	.remember_panel {
 		left: 50%;
@@ -359,37 +371,37 @@
 	}
 
 	.establishment {
-		max-width: 370px;
-		margin-left: 15px;
-		background-position: -42px;
+		max-width: 400px;
+		margin-left: 0px;
+		background-position: -12px;
 		padding-right: 20px;
 	}
 	.contactus {
-		max-width: 371px;  
-		margin-left: 14px;
+		max-width: 400px;  
+		margin-left: 0px;
 	}
 }
 
 @media all and (min-width: 475px) and (max-width: 955px) {
 	.fbbutton {
-		max-width: 390px;
+		max-width: 480px;
 		left: 50%;
-		margin-left: -192px;
+		margin-left: -240px;
 	}
 	
 	#logininputemail {
-		max-width: 390px;
+		max-width: 480px;
 		width: 100%;
-		margin-left: -192px;
+		margin-left: -240px;
 	}
 	#logininputpass {
-		max-width: 390px;
+		max-width: 480px;
 		width: 100%;
-		margin-left: -192px;
+		margin-left: -240px;
 	}
 	
 	.icons {
-		margin-left: 168px;
+		margin-left: 210px;
 	}
 	.remember_panel {
 		left: 50%;
@@ -408,18 +420,16 @@
 		margin-left: -192px;
 		background-position: -22px;
 		padding-right: 20px;
-	
 		clear: both;
-}
+	}
 	.contactus {
 		max-width: 390px;  
 		left: 50%;
 		margin-left: -390px;
 		top: 57px;
 		margin-bottom: 70px;
-	
 		margin-top: 15px;
-}
+	}
 }
 
 @media all and (min-width: 955px)  {
@@ -432,7 +442,7 @@
 		margin-left: -395px;
 		clear: both;
 		margin-top: 10px;
-}
+	}
 	.contactus {
 		max-width: 390px;
 		left: 50%;

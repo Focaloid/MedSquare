@@ -58,7 +58,7 @@ input::-webkit-input-placeholder {
 
 
 .x-button-pressing {
-	background:#1abc9c !important;
+	background-color:#1abc9c !important;
 	color:#fff;
 }
 .x-tabbar-dark {
@@ -77,6 +77,7 @@ input::-webkit-input-placeholder {
 	background: url('../images/search_left.png') no-repeat left;
 	width: 26px;
 	height: 20px;
+	margin-top: -8px;
 	background-size: 100%;
 	content: '';
 }
@@ -92,20 +93,27 @@ input::-webkit-input-placeholder {
 }
 .x-field-mask {
     width: 26px;
-    margin-top: -4px;
-    margin-left: -3px;
-    font-size: 9px;
+    margin-top: -5px;
+    margin-left: -1px;
+    font-size: 10px;
 }
+
+#registry_dob .x-field-mask {
+    width: 200px;
+}
+#registry_gender .x-field-mask {
+    width: 200px;
+}
+#registry_expdate .x-field-mask {
+    width: 200px;
+}
+
 .insurance_only_checkbox.x-field .x-input-el {
     display:none;
 }
 
 .x-scroll-container {
 	background: #fff;
-}
-.x-input-el {
-    background:#ecf0f1;
-    min-height: 0px;
 }
 
 .x-layout-card-item {
@@ -117,7 +125,9 @@ input::-webkit-input-placeholder {
 }
 
 .x-field-input .x-clear-icon {
-	display: none;
+    background: #ecf0f1;
+    height: 36px;
+    margin-top: -18px;
 }
 
 .x-dock.x-unsized > .x-dock-body, .x-dock.x-stretched > .x-dock-body {
@@ -139,51 +149,6 @@ input::-webkit-input-placeholder {
     z-index: 1;
 }
  
-/* Main view */
- 
-.slide.out {
-	-webkit-transition:all .5s linear;
-	transition:all .5s linear;
-	margin-left:-240px;
-}
- 
-.slide.in {
-	-webkit-transition:all .5s linear;
-	transition:all .5s linear;
-	margin-left:0px;
-}
- 
-/* .slide.out {
--webkit-animation-name: slideout;
--webkit-transform: translateX(-240px);
-}
- 
-.slide.in {
--webkit-animation-name: slidein;
--webkit-transform: translateX(0px);
-}
- 
-@-webkit-keyframes slideout {
-from {
--webkit-transform: translateX(0px);
-}
- 
-to {
--webkit-transform: translateX(-240px);
-};
-}
- 
-@-webkit-keyframes slidein {
-from {
--webkit-transform: translateX(-240px);
-}
- 
-to {
--webkit-transform: translateX(0px);
-};
-}
-  */
-/* Main view ENDS */
  
 /* Nav menu view */
  
@@ -276,53 +241,111 @@ color: #cad0d1;
 .slideTop {
 	background: #f1f1f1;
 	z-index: 1;
-	margin-top: -300px;
+	margin-top: -250px;
 }
- 
-/* Main view */
+.x-field  {
+	background: transparent;
+}
+.x-field-checkbox.x-field  {
+	background:#ecf0f1;
+}
+.x-msgbox > .x-dock {
+	background:transparent;
+}
+.x-panel.x-floating, .x-msgbox, .x-form.x-floating {
+	background:#fff;
+	box-shadow: inset 0px 0px 50px #CCCCCC;
+}
+.x-toolbar-dark .x-title {
+	color:#0182af;
+}
+.x-msgbox-dark .x-msgbox-text {
+	color:#888;
+	font-family: georgia;
+	font-size: 17px;
+}
+.x-button.x-button-action, .x-toolbar .x-button.x-button-action {
+	background:#1abc9c;
+	border:0;
+	border-radius:0;
+}
+.x-button-normal.x-button.x-layout-box-item.x-stretched {
+    background:#1abc9c;
+	border:0;
+	border-radius:0;
+}
+.x-msgbox {
+	margin: .5em;
+	border: 2px solid #888;
+}
 
-.slideTop.out {
-	-webkit-transition:all .5s linear;
-	transition:all .5s linear;
-	top:300px;
+.search_main .x-input-el {
+    border: 0;
 }
- 
-.slideTop.in {
-	-webkit-transition:all .5s linear;
-	transition:all .5s linear;
-	top:0px;
+.search .x-input-el {
+    border: 0;
+}
+.search_map .x-input-el {
+    border: 0;
+}
+.x-input-el {
+    background: #ecf0f1;
+    min-height: 0px;
 }
 
-/* .slideTop.out {
--webkit-animation-name: mainSlideOutTop;
--webkit-transform: translateY(300px);
+.search_main .x-clear-icon {
+    background: #ecf0f1;
+	height: 33px;
+	margin-top: -17px;
 }
- 
-.slideTop.in {
--webkit-animation-name: mainSlideInTop;
--webkit-transform: translateY(0px);
+.search .x-clear-icon {
+    background: #ecf0f1;
+	height: 33px;
+	margin-top: -17px;
 }
- 
-@-webkit-keyframes mainSlideOutTop {
-from {
--webkit-transform: translateY(0px);
+.search_map .x-clear-icon {
+    background: #ecf0f1;
+	height: 33px;
+	margin-top: -17px;
 }
- 
-to {
--webkit-transform: translateY(300px);
-};
+
+.x-tabbar-dark.x-docked-bottom .x-tab-active .x-button-icon:before {
+	color: #1abc9c !important;
 }
- 
-@-webkit-keyframes mainSlideInTop {
-from {
--webkit-transform: translateY(300px);
+
+.x-webkit .x-layout-box.x-horizontal > .x-layout-box-item.x-flexed {
+	width: 15% !important;
 }
- 
-to {
--webkit-transform: translateY(0px);
-};
+.x-picker-inner .x-scroll-container {
+	background: transparent !important;
+}
+
+.x-pack-start .x-button-normal.x-button.x-layout-box-item.x-stretched {
+	min-width: 60px !important;
+}
+.x-pack-start .x-button.x-button-action, .x-toolbar .x-button.x-button-action {
+	min-width: 47px !important;
+}
+
+.x-webkit .x-selectmark-base, .x-webkit .x-field-select .x-component-outer:after, .x-field-select .x-webkit .x-component-outer:after {
+	margin-top: 5px;
+}
+.x-field-select .x-component-outer:before {
+	content: none;
+}
+
+.x-toolbar-dark.x-docked-top {
+	border-bottom-color: #000;
+	background: #fff;
+	box-shadow: inset 0px 0px 50px #CCCCCC;
+}
+
+.x-mask .x-mask-message {
+	color: #FDFAFA;
+}
+/* .x-scroll-container {
+	box-shadow: inset 0px -50px 150px 10px #CCCCCC;
+}
+.x-dock.x-dock-vertical {
+	box-shadow: inset 0px 22px 300px 10px #CCCCCC;
 } */
- 
-/* Main view ENDS */
- 
-/* For top navigation ENDS */
