@@ -101,12 +101,27 @@
     <feature name="InAppBrowser">
       <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
     </feature>
+    <feature name="ChildBrowser">
+      <param name="android-package" value="com.phonegap.plugins.childBrowser.ChildBrowser"/>
+    </feature>
+    <feature name="SplashScreen">
+      <param name="android-package" value="org.apache.cordova.SplashScreen"/>
+    </feature>
+    <feature name="File">
+      <param name="android-package" value="org.apache.cordova.FileUtils"/>
+    </feature>
+    <feature name="File">
+      <param name="FileTransfer" value="org.apache.cordova.FileTransfer"/>
+    </feature>
+    <feature name="File">
+      <param name="Geolocation" value="org.apache.cordova.GeoBroker"/>
+    </feature>
     <!-- Deprecated plugins element. Remove in 3.0 -->
     <plugins>
-		<plugin name="ChildBrowser" value="com.phonegap.plugins.childBrowser.ChildBrowser"/>
+		<!-- <plugin name="ChildBrowser" value="com.phonegap.plugins.childBrowser.ChildBrowser"/>
 		<plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
 		<plugin name="File" value="org.apache.cordova.FileUtils" />
 		<plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
-		<plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+		<plugin name="Geolocation" value="org.apache.cordova.GeoBroker" /> -->
     </plugins>
 </widget>

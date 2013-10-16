@@ -524,11 +524,11 @@
 		margin-left: -350px;
 	}
 	.search_main {
-		max-width: 326px;
+		max-width: 656px;
 	}
 	.searchoptions_main {
 		margin-top: -33px;
-		margin-left: 325px;
+		margin-left: 655px;
 	}
 	.insurance_only_checkbox_main {
 		margin-left: 370px;
@@ -542,6 +542,13 @@
 	.closesearch_main {
 		float: right;
 		margin-top: -34px;
+	}
+	
+	.suggestpop {
+		width: 692px;
+	}
+	.he_details_sugg {
+		width: 620px;
 	}
 }
 
