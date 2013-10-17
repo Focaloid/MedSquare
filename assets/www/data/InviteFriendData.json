@@ -1,0 +1,4 @@
+{ 'invitefriends': [
+    {'userid':1,'image':'boy.png', 'firstname':'Alice', 'lastname':'Whitman', 'message' : 'hai.. you there?', 'time' : '15 mins ago'},
+    {'userid':2,'image':'ladie.png', 'firstname':'Clayton', 'lastname':'Clear','message' : 'hello.. pls accept', 'time' : '35 mins ago'}
+]}

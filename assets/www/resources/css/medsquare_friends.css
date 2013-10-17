@@ -1,0 +1,4 @@
+/* additional css rules for medsquare app main page*/
+
+.x-list-normal .x-list-header{background-color: #B3AFAF;background-image:none !important;color: #FFF;border:none;}
+.contact{width: 60%;float: left;margin-left: 10px;font-size: 14px;color: #000;}

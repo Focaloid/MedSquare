@@ -1,0 +1,10 @@
+{ 'friends': [
+    {'userid':1,'image':'man.png', 'firstname':'Alberto', 'lastname':'Albiato','online' :'1'},
+    {'userid':2,'image':'ladie.png', 'firstname':'Riccardo', 'lastname':'Gomez','online' :'0'},
+    {'userid':3,'image':'boy.png', 'firstname':'Rosalia', 'lastname':'Tomaso','online' :'0'},
+    {'userid':4,'image':'man.png', 'firstname':'Gaston', 'lastname':'Le Grand','online' :'0'},
+    {'userid':5,'image':'ladie.png', 'firstname':'Roberto', 'lastname':'Mazone','online' :'1'},
+    {'userid':6,'image':'boy.png', 'firstname':'Andrea', 'lastname':'Matotti','online' :'0'},
+    {'userid':7,'image':'man.png', 'firstname':'Delbin', 'lastname':'Thomas','online' :'0'},
+    {'userid':8,'image':'ladie.png', 'firstname':'Venakt', 'lastname':'Ramakrish','online' :'0'},
+]}

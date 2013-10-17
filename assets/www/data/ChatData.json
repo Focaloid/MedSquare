@@ -1,0 +1,14 @@
+{ 'chats': [
+    {'chatid':1,'image1':'boy.png', 'user':'Alberto','message' :'Hey, How are you?','dates' : 'Sep 20 2012 05:05:54'},
+    {'chatid':2,'image1':'man.png', 'user':'Riccardo','message' :'Am Fine. What about you?','dates' : 'Sep 20 2012 05:06:54'},
+	{'chatid':3,'image1':'boy.png', 'user':'Alberto','message' :'Hey, What is the Queue time for Hospital?','dates' : 'Sep 20 2012 05:07:54'},
+    {'chatid':4,'image1':'man.png', 'user':'Riccardo','message' :'It is 35 mins','dates' : 'Sep 20 2012 05:08:54'},
+	{'chatid':5,'image1':'boy.png', 'user':'Alberto','message' :'Hey, How are you?','dates' : 'Sep 20 2012 05:05:54'},
+    {'chatid':6,'image1':'man.png', 'user':'Riccardo','message' :'Am Fine. What about you?','dates' : 'Sep 20 2012 05:06:54'},
+	{'chatid':7,'image1':'boy.png', 'user':'Alberto','message' :'Hey, What is the Queue time for Hospital?','dates' : 'Sep 20 2012 05:07:54'},
+    {'chatid':8,'image1':'man.png', 'user':'Riccardo','message' :'It is 35 mins','dates' : 'Sep 20 2012 05:08:54'},
+	{'chatid':9,'image1':'boy.png', 'user':'Alberto','message' :'Hey, How are you?','dates' : 'Sep 20 2012 05:05:54'},
+    {'chatid':10,'image1':'man.png', 'user':'Riccardo','message' :'Am Fine. What about you?','dates' : 'Sep 20 2012 05:06:54'},
+	{'chatid':11,'image1':'boy.png', 'user':'Alberto','message' :'Hey, What is the Queue time for Hospital?','dates':'Sep 20 2012 05:07:54'},
+    {'chatid':12,'image1':'man.png', 'user':'Riccardo','message' :'It is 35 mins','dates' : 'Sep 20 2012 05:08:54'}
+]}

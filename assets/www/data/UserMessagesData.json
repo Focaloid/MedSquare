@@ -1,0 +1,8 @@
+{ 'userMessages': [
+    {'userid':1,'image':'boy.png', 'firstname':'Alberto', 'lastname':'Albiato','message' :'Hey, How are you?','dates' : '05:54','online' :'1'},
+    {'userid':2,'image':'ladie.png', 'firstname':'Riccardo', 'lastname':'Gomez','message' :'Hey, What is the Queue time for Hospital?','dates' : '07:54','online' :'0'},
+    {'userid':3,'image':'man.png', 'firstname':'Rosalia', 'lastname':'Tomaso','message' :'Hey, How are you?','dates' : '05:54','online' :'0'},
+    {'userid':4,'image':'ladie.png', 'firstname':'Gaston', 'lastname':'Le Grand','message' :'Hey, How are you?','dates' : '05:54','online' :'0'},
+    {'userid':5,'image':'man.png', 'firstname':'Roberto', 'lastname':'Mazone','message' :'Hey, How are you?','dates' : '05:54','online' :'1'},
+    {'userid':6,'image':'ladie.png', 'firstname':'Andrea', 'lastname':'Matotti','message' :'Hey, How are you?','dates' : '05:54','online' :'0'}
+]}
