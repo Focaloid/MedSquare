@@ -1,0 +1,145 @@
+/* css for invite friends*/
+
+.inviteFriends_panel {
+    float: left;
+    left: 50%;
+    width: 320px;
+    padding: 5px;
+    margin-left: -160px;
+}
+.invitehead {
+    font-size: 16px;
+    color: #00abe7;
+    text-align: center;
+    height: 25px;
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 20px;
+}
+.fbinviteleft {
+	background: url(../images/fbinvite.png) no-repeat center;
+}
+.fbinvitebutton {
+    background: #335188;
+}
+.mailinviteleft {
+	background: url(../images/mailinvite.png) no-repeat center;
+}
+.mailinvitebutton {
+    background: #1abc9c;
+}
+.contactinviteleft {
+	background: url(../images/contactinvite.png) no-repeat center;
+}
+.contactinvitebutton {
+    background: #1abc9c;
+}
+.inviteinfo {
+    float: left;
+    width: 100%;
+    color: #888;
+    font-size: 11px;
+    margin-top: -5px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.contactinvitebutton .x-button-label,.mailinvitebutton .x-button-label,.fbinvitebutton .x-button-label {
+	font-weight: normal;
+	text-align: left;
+	margin-left: 20px;
+}
+.contactinvitebutton ,.mailinvitebutton ,.fbinvitebutton  {
+	color: #fff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px #dbdbdb;
+    min-height: 20px;
+    height: 27px;
+    margin-top: 2px;
+    float: left;
+    width: 274px;
+    border-radius: 4px;
+    padding: 0;
+}
+.contactinviteleft ,.mailinviteleft ,.fbinviteleft  {
+	width: 35px;
+	height: 35px;
+	background-size: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.fbFriendsList {
+	float:left;
+	width:100%;
+	position: absolute;
+	height: 100%;
+}
+.fbFriendsList .x-html {
+	padding: 0;
+}
+
+.InviteButton {
+	width: 70px;
+	float: right;
+	color: #FFF;
+	background-color: #1ABC9C !important;
+	padding-left: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.friendlisting {
+	float: left;
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+.emailinvitecontainer {
+	float: left;
+    left: 50%;
+    width: 320px;
+    padding: 5px;
+    margin-left: -160px;
+}
+.inviteemail {
+
+}
+.emailinvitebutton {
+	background: #1ABC9C !important;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	color: #fff;
+}
+
+@media all and (max-width: 315px) {
+	
+}
+
+@media all and (min-width: 315px) and (max-width: 355px) {
+	
+}
+
+@media all and (min-width: 355px) and (max-width: 395px) {
+	
+}
+
+@media all and (min-width: 395px) and (max-width: 475px) {
+
+}
+
+@media all and (min-width: 475px) and (max-width: 635px) {
+	
+	
+}
+
+@media all and (min-width: 635px) and (max-width: 715px) {
+	
+}
+
+@media all and (min-width: 715px) and (max-width: 767px) {
+	
+}
+
+@media all and (min-width: 768px) {
+	
+}

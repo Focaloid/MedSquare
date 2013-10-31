@@ -60,6 +60,8 @@
     margin: 0px 0px;
     margin-bottom: 70px;
     float: left;
+    width: 100%;
+    height: 100%;
 }
 .result {
 	float: left;
@@ -98,8 +100,8 @@
 
 .search_filter {
     float: right;
-    background: #cad0d1 url(../images/show_filter.png) no-repeat center;
-    background-size: 21px;
+    background: #cad0d1 url(../images/show_filter.png) no-repeat center !important;
+    background-size: 21px !important;
     border-radius: 0;
     border: 0;
     width: 33px;
@@ -142,7 +144,7 @@
     background-size: 10px;
     white-space: nowrap;
 }
-.he_details_main .he_distTime:hover {
+.he_details_main .he_distTime {
     text-decoration:underline;
 }
 .even .he_distTime {
@@ -314,6 +316,10 @@
 		margin-top: -30px;
 		font-size: 10px;
 	}
+	#online1 {
+    margin-left: 10px;
+		
+	}
 	.he_evals {
 		font-size:10px
 	}
@@ -392,13 +398,12 @@
 		margin-left: 95px;
 		margin-top: -17px;
 		font-size: 11px;
-		line-height: 9px;
+		line-height: 16px;
 	}
 	#online5 {
 		width: 22px;
 	}
 	#online1 {
-		width: 22px;
 	}
 	#online3 {
 		width: 22px;
@@ -470,16 +475,15 @@
 		line-height: 16px;
 	}
 	.he_onlineCount {
-		margin-left: 95px;
-		margin-top: -17px;
+		margin-left: 36px;
+		margin-top: 5px;
 		font-size: 11px;
-		line-height: 10px;
+		line-height: 16px;
 	}
 	#online5 {
 		width: 24px;
 	}
 	#online1 {
-		width: 22px;
 	}
 	#online3 {
 		width: 22px;
@@ -552,12 +556,13 @@
 	}
 	.he_onlineCount {
     line-height: 13px;
-	}
+	
+    margin-left: 38px;
+}
 	#online5 {
 		width: 24px;
 	}
 	#online1 {
-		width: 22px;
 	}
 	#online3 {
 		width: 22px;
@@ -735,14 +740,17 @@
 	}
 	
 	.searchresults {
-		left: 50%;
-		margin-left: -374px;
 		max-width: 100%;
 		margin-right: 10px;
-    }
+		position: relative;
+	}
     .result {
 		width: 748px;
-    }
+    
+		left: 50%;
+		position: relative;
+		margin-left: -374px;
+}
     .he_details {
         width: 552px;
     }
@@ -767,4 +775,11 @@
 		margin-top: -15px;
 		width: 160px;
 	}
+}
+ 
+.searchresults .x-list-item-last {
+	margin-bottom:70px;
+}
+.friendsMessageList  .x-list-item-last {
+	margin-bottom:70px;
 }

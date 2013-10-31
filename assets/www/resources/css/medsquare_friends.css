@@ -1,4 +1,42 @@
 /* additional css rules for medsquare app main page*/
 
-.x-list-normal .x-list-header{background-color: #B3AFAF;background-image:none !important;color: #FFF;border:none;}
+.x-list-normal .x-list-header{background-color: #B3AFAF;background-image:none !important;color: #FFF;border:none;float: left;}
 .contact{width: 60%;float: left;margin-left: 10px;font-size: 14px;color: #000;}
+
+.friendsList .x-list .x-list-item .x-list-item-body, .x-list .x-list-item.x-list-item-tpl .x-innerhtml{
+    padding: 0;
+}
+
+.friendslistItem {
+	float: left;
+	width: 100%;
+	padding: 5px;
+}
+.listeven {
+	background: #f2f2f2 !important;
+}
+
+.chatItem {
+    margin: 0px 10px;
+}
+
+.gotoInvite {
+	background: url(../images/adduser.png) no-repeat center !important;
+	float: right;
+	border: 0;
+	background-size: 70% !important;
+	margin-right: 5px;
+	margin-top: -38px;
+	width: 35px;
+	height: 35px;
+}
+
+.friendsList .x-scroll-scroller {
+	z-index:-1;
+}
+.friendsList .x-scroll-bar.active.x-scroll-bar-y {
+	background:#1ABC9C !important;
+}
+.friendsList .x-scroll-bar.x-scroll-bar-y {
+	background:#1ABC9C !important;
+}

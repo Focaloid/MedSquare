@@ -104,9 +104,6 @@
     <feature name="ChildBrowser">
       <param name="android-package" value="com.phonegap.plugins.childBrowser.ChildBrowser"/>
     </feature>
-    <feature name="SplashScreen">
-      <param name="android-package" value="org.apache.cordova.SplashScreen"/>
-    </feature>
     <feature name="File">
       <param name="android-package" value="org.apache.cordova.FileUtils"/>
     </feature>

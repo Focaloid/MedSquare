@@ -99,7 +99,6 @@
 }
 .he_queue {
     float: right;
-    margin-left: 15px;
     margin-top: 2px;
     width: 90px;
 }
@@ -130,7 +129,7 @@
 	
 }
 .he_queue_info {
-    font-size: 11px;  font-weight: bold;  float: left;
+    font-size: 9px;  font-weight: bold;  float: left;
     clear: both;
 }
 
@@ -187,7 +186,7 @@
 
 }
 #he_online {
-    width: 38px;
+    width: 18px;
 }
 #he_logo_map {
 	float: left;
@@ -347,8 +346,10 @@
 		line-height: 6px;
 	}
 	#he_online {
-		width: 24px;
-	}
+		width: 15px;
+	
+		margin-top: -5px;
+}
 	.he_online_count {
 	
 	}
@@ -410,7 +411,12 @@
 	.map_sugg {
 		width: 203px;
 	}
-	
+	.he_queue {
+		float: right;
+		margin-top: 2px;
+		width: 90px;
+		margin-right:-10px
+	}
 	
 	.he_details_map {
 		width: 235px;
@@ -441,8 +447,10 @@
 		line-height: 6px;
 	}
 	#he_online {
-		width: 24px;
-	}
+		width: 15px;
+	
+		margin-top: -5px;
+}
 	.he_online_count {
 	
 	}
@@ -537,7 +545,7 @@
 		line-height: 6px;
 	}
 	#he_online {
-		width: 24px;
+    width: 15px;  margin-top: -5px;
 	}
 	.he_online_count {
 	
@@ -640,7 +648,7 @@
 		line-height: 6px;
 	}
 	#he_online {
-		width: 24px;
+    width: 15px;  margin-top: -5px;
 	}
 	.he_online_count {
 	
@@ -733,7 +741,7 @@
 		line-height: 6px;
 	}
 	#he_online {
-		width: 24px;
+    width: 15px;  margin-top: -5px;
 	}
 	.he_online_count {
 	

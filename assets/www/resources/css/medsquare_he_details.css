@@ -129,6 +129,7 @@
     padding-left: 20px;
     margin-top: 10px;
     width: 136px;
+    text-decoration: underline;
 }
 .userevalhead:hover {
     background:#1ABC9C url(../images/user1.png) no-repeat left;
@@ -312,6 +313,7 @@
 	background-size: 13px;
 	padding-left: 22px;
 	margin-left: 10px;
+	text-decoration: underline;
 }
 .comments_panel {
 	float:left;
@@ -330,8 +332,8 @@
 .comment_text {
 	float:left;
 	clear: both;
-	font-size: 11px;
-	margin-top: 10px;
+	font-size: 12px;
+	margin-top: 7px;
 	margin-left: 10px;
 	color: #8A8A8A;
 }
@@ -346,6 +348,7 @@
 	float: left;
 	padding: 10px;
 	width: 100%;
+	border-bottom: 1px solid #C5C4C4;
 }
 .comment_data.even {
 	background:#ecf0f1;
@@ -442,7 +445,6 @@
 .checkoutTop {
 	float: right;
 	margin: -37px 8px 0px 0px;
-	
 	background-color: #192633 !important;
 	background-image: url(../images/checkout_green.png) !important;
 	background-repeat: no-repeat;
@@ -451,6 +453,12 @@
 	width: 38px;
 	border: 0;
 	border-radius: 0;
+}
+
+.comment_data_list {
+	float:left;
+	width:100%;
+	padding: 5px 0px;
 }
 
 @media all and (max-width: 315px) {
@@ -894,7 +902,7 @@
         width: 800px;
     }
 	.rating_div {
-		width: 154px;
+		width: 153px;
 	}
 	.whoistherehead {
 		width: 96%;

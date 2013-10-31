@@ -360,31 +360,54 @@ color: #cad0d1;
 .x-dock.x-dock-vertical {
 	box-shadow: inset 0px 22px 300px 10px #CCCCCC;
 } */
+
+.searchresults .x-html {
+	padding: 0;
+}
+.x-list-normal .x-list-item.x-list-item-tpl.x-list-footer-wrap, .x-list-normal .x-list-item.x-list-footer-wrap .x-dock-horizontal {
+	border-bottom: 0 !important;
+	float:left;
+}
+.x-list-normal .x-list-item.x-list-item-tpl, .x-list-normal .x-list-item .x-dock-horizontal {
+	border-top: 0 !important;
+	float:left;
+}
+.searchresults .x-innerhtml {
+	padding: 0 !important;
+}
+
+.navlistitem {
+	margin:10px 15px;
+}
+
+
 /*Friends */
 
 .x-list-normal .x-list-header{background-color: #B3AFAF;background-image:none !important;color: #FFF;border:none;padding-left: 24px;height: 17px;padding-top: 0px;}
 .contact{width: 60%;float: left;margin-left: 10px;font-size: 13px;color: #000;margin-top: 7px;font-weight:bold;}
 .lblFriends{font-size: 13px;margin-top: 10px;z-index: 3000;}
-.friendsList,.chatList{height: 70%;z-index: 3000;position: relative !important;width: 100%;float: left;}
+.friendsList,.chatList{height: 100%;z-index: 3000;position: relative !important;width: 100%;float: left;}
 .friendsList .x-scroll-container {background: none !important;}
 .lblInviteFriends,.lblFriends {font-size: 13px;padding-left: 15px;margin-top: auto;background-color: #1ABC9C;width: 100%;color: #FFF;height: 25px;padding-top: 4px;z-index: 3002;position: relative !important;}
 .invitefriendsList{height: 110px;z-index: 3001;position: relative !important;}
-.invitefriendsList .x-list-item,.friendsList .x-list-item,.friendsMessageList .x-list-item{height:55px;border: none !important;}
+.invitefriendsList .x-list-item,.friendsList .x-list-item,.friendsMessageList .x-list-item,.friendsMessageListTop .x-list-item{border: none !important;}
 .invitefriendsList .x-list-item{background-color: #F0F0F0 !important;}
 .invitefriendsList .x-list-item.x-item-selected.x-list-item-tpl{background-color: #F0F0F0 !important;background:#F0F0F0 !important;}
 .friendsList .x-list-item{background-color: #FFF;}
 .friendsList .x-list-item.x-item-selected.x-list-item-tpl{background:none !important;background-color:#1ABC9C !important;border:none !important}
 .friendsMessageList .x-list-item.x-item-selected.x-list-item-tpl{background-color: none !important;background:none !important;border:none !important}
+.friendsMessageListTop .x-list-item.x-item-selected.x-list-item-tpl{background-color: none !important;background:none !important;border:none !important}
 
 .time{font-size: 9px;margin-top: 0px;font-weight: normal;color: #808080;width: 60%;float: left;margin-left: 10px;}
 .message{font-size: 12px;margin-top: 0px;width: 60%;float: left;margin-left: 10px;color: #000;}
-.online{width:10px;height:10px;border-radius: 10px;background-color:#1ABC9C;float: right;margin-top: 12px;}
+.online{width:10px;height:10px;border-radius: 10px;background-color:#1ABC9C;float: right;margin-top: 10px;}
+.online2{width:10px;height:10px;border-radius: 10px;background-color:#1ABC9C;float: right;}
 .accept{background:url("../images/signupok.png") no-repeat;float: right;margin-right: 3px;width: 25px;height: 25px;margin-top: -18px}
 .reject{background:url("../images/signuperror.png") no-repeat;float: right;margin-right: -1px;width: 25px;height: 25px;margin-top: -18px}
 .even1{position:absolute;top:10px;right:10px;width: 32px;}
 .odd{float:left;width: 32px;}.x-list-item-body span .nickname{font-style:italic}
 .triangle-right{position:relative;padding:5px;color:#fff;background:#F8984B;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;font-size: 14px;}.triangle-right.left{margin-left: 56px;background:#1ABC9C;}.triangle-right.right{margin-right: 56px;background:#F8984B}.triangle-right:after{content:"";display:block;position:absolute;bottom:-5px;left:50px;width:0;height:0;border-width:50px 0 0 50px;border-style:solid;border-color:#F8984B transparent}.triangle-right.left:after{top:8px;left:-20px;bottom:auto;border-width:7px 20px 0 0;border-color:transparent #1ABC9C}.triangle-right.right:after{top:8px;right:-20px;bottom:auto;left:auto;border-width:7px 0 0 20px;border-color:transparent #F8984B}
-.chatList{margin-top: 12px;border:none;height: 98%;width: 100%;z-index: 3000;float: left;}
+.chatList{margin-top: 12px;border:none;height: 98%;width: 100%;z-index: 3;float: left;}
 .chatList .x-list-item {border:none !important}
 .pnlBottom{background-color: #DDDDDD;height: 45px;}
 .pnlText{float: left;width: 70%;left: 50%;position: absolute;margin-left: -43%;min-height: 25px;height: 31px;border: 1px solid #B1B0B0;top: 8px;}
@@ -395,23 +418,25 @@ color: #cad0d1;
 .messages1 .x-tabbar.x-docked-top .x-tab{background-color: #F0F0F0 !important;width: 50%;color: #000 !important;border-radius: 0px;font-size: 15px;margin-right: 3px;}
 .messages1 .x-tabbar-dark.x-docked-top .x-tab-active{background-color: #1ABC9C !important;color: #FFF !important;}
 .friendsMessageList{height: 50%;z-index: 3000;position: relative !important;width: 100%;}
+.friendsMessageListTop{height: 50%;z-index: 3000;position: relative !important;width: 100%;}
 .friendsMessageList .x-list-inner{padding:0px}
+.friendsMessageListTop .x-list-inner{padding:0px}
 .lblFriendsMessage{margin-bottom: 10px;font-size: 13px;font-weight: bold;background-color: #F0EBEB;padding-left: 14px;padding-top: 3px;padding-bottom: 3px;}
 .messages1 .x-tabbar-dark{background:none !important;border:none !important}
-.contactMsg {width: 60%;float: left;margin-left: 10px;font-size: 13px;color: #000;margin-top: -5px;font-weight:bold}
-.msg{float: left;font-size: 11px;margin-left: 44px;margin-top: 18px;position: absolute;color: #949292;background: url(../images/msgarrow.png) no-repeat left;background-size: 8px;padding-left: 14px;}
+.contactMsg {width: 60%;float: left;margin-left: 10px;font-size: 13px;color: #000;margin-top: -5px;font-weight:bold;}
+.msg{float: left;font-size: 11px;position: relative;color: #949292;background: url(../images/msgarrow.png) no-repeat left;background-size: 8px;padding-left: 14px;margin-left: 11px;clear: both;}
 .dateMsg{font-size: 10px;margin-top: -5px;color: #949292;margin-right: 5px;float: right;}
 .know{margin-top: 25px;}
 .addPeople{width: 50px;float: right;color: #FFF;background-color: #1ABC9C !important;padding-left: 20px;padding-top: 2px;padding-bottom: 2px;}
-
+#emptyMsg{text-align: center;color:#1ABC9C;font-size:15px !important;}
+.x-list-paging .x-list-paging-msg{color:#1ABC9C !important;font-size:15px !important;}
 
 .friendsListHe {
 	height: 100%;
 	z-index: 3000;
 	position: relative !important;
 }
-.friendsListHe .x-list-item {
-	height:55px;border: none !important;
+.friendsListHe .x-list-item {border: none !important;
 }
 .usermessages {
     float: left;
@@ -451,4 +476,41 @@ color: #cad0d1;
 	font-size:14px;
 	position: relative;
 	margin-left: 11px;
+}
+
+/* friends details */
+
+.friendDetails .x-tabbar-dark{background:none !important;border:none !important}
+.friendDetails .x-tabbar.x-docked-top .x-tab{background-color: #F0F0F0 !important;width: 33%;color: #000 !important;border-radius: 0px;font-size: 15px;margin-right: 3px;border-radius: 5px;}
+.friendDetails .x-tabbar-dark.x-docked-top .x-tab-active{background-color: #1ABC9C !important;color: #FFF !important;}
+
+@media all and (max-width: 395px) {	
+	.friendDetails .x-tabbar.x-docked-top .x-tab:nth-child(1){width: 25%;margin-left: -5px;}
+	.friendDetails .x-tabbar.x-docked-top .x-tab:nth-child(2){width: 43%;}
+	.friendDetails .x-tabbar.x-docked-top .x-tab:nth-child(3){width: 95px;}
+	.friendDetails .x-tabbar.x-docked-top .x-tab{font-size: 14px;}
+}
+@media all and (min-width: 395px) and ( max-width: 475px) {	
+	.friendDetails .x-tabbar.x-docked-top .x-tab:nth-child(1){width: 22%;}
+	.friendDetails .x-tabbar.x-docked-top .x-tab:nth-child(2){width: 45%;}
+	.friendDetails .x-tabbar.x-docked-top .x-tab:nth-child(3){width: 30%;}
+	.friendDetails .x-tabbar.x-docked-top .x-tab{font-size: 15px;}
+}
+
+/* main page suggestions */
+
+.searchSugg  {
+	float: left;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.searchSugg  .x-list-inner{ padding:0px; }
+.suggEmptytext {
+	position:absolute;
+	float: left;
+	top: 50px;
+	left: 50%;
+	width: 260px;
+	margin-left: -130px;
 }
