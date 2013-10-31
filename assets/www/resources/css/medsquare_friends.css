@@ -31,9 +31,7 @@
 	height: 35px;
 }
 
-.friendsList .x-scroll-scroller {
-	z-index:-1;
-}
+
 .friendsList .x-scroll-bar.active.x-scroll-bar-y {
 	background:#1ABC9C !important;
 }

@@ -129,7 +129,7 @@
 	
 }
 .he_queue_info {
-    font-size: 9px;  font-weight: bold;  float: left;
+    font-size: 12px;  font-weight: bold;  float: left;
     clear: both;
 }
 
@@ -219,11 +219,14 @@
 .he_stars_map {
     float: left;
 
+    margin-left: 165px;
+    margin-top: -13px;
 }
 .he_evals_map {
     float: left;
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: 245px;
+    margin-top: -14px;
 }
 .he_distTime_map {
 	float: left;
@@ -326,12 +329,16 @@
 		margin-top: 16px;
 	}
 	.he_stars_map {
-		margin-left: 32px;
-	}
+		margin-left: -60px;
+	
+		margin-top: 15px;
+}
 	.he_evals_map {
 		font-size: 10px;
-		margin-left: 1px;
-	}
+	
+		margin-top: 15px;
+		margin-left: 15px;
+}
 	#suggestpop_map {
 		width: 183px;
 	}
@@ -430,15 +437,17 @@
 	.he_distTime_map {
 		position: absolute;
 		left: 70px;
-		margin-top: 0px;
+		margin-top: 1px;
 	}
 	.he_stars_map {
-		margin-left: 97px;
+    margin-top: 16px;
 	}
 	.he_evals_map {
 		font-size: 10px;
-		margin-left: 1px;
-	}
+		margin-left: 15px;
+	
+		margin-top: 16px;
+}
 	.he_queue_values {
 		font-size: 11px;
 	}
@@ -531,7 +540,7 @@
 		margin-top: 0px;
 	}
 	.he_stars_map {
-		margin-left: 112px;
+		margin-left: 135px;
 	}
 	.he_evals_map {
 		font-size: 10px;
@@ -634,11 +643,11 @@
 		margin-top: 0px;
 	}
 	.he_stars_map {
-		margin-left: 112px;
+		margin-left: 145px;
 	}
 	.he_evals_map {
 		font-size: 10px;
-		margin-left: 5px;
+		margin-left: 15px;
 	}
 	.he_queue_values {
 		font-size: 11px;
@@ -728,10 +737,10 @@
 		margin-top: 0px;
 	}
 	.he_stars_map {
-		margin-left: 135px;
+		margin-left: 155px;
 	}
 	.he_evals_map {
-		margin-left: 35px;
+		margin-left: 15px;
 	}
 	.he_queue_values {
 		font-size: 11px;
@@ -830,12 +839,17 @@
 		margin-top: 0px;
 	}
 	.he_stars_map {
-		margin-left: 115px;
-	}
+		margin-left: 0px;
+	
+		margin-top: 17px;
+		margin-bottom: 5px;
+}
 	.he_evals_map {
 		font-size: 11px;
-		margin-left: 5px;
-	}
+		margin-left: 15px;
+	
+		margin-top: 16px;
+}
 	.checkoutTop_map{
 		margin: -32px 0px 0px 0px;
 	}
@@ -879,7 +893,7 @@
 		padding: 10px 5px 4px;
 	}
 	.he_details_map {
-		width: 298px;
+		width: 299px;
 	}
 	.he_dist_time {
         margin-top: 11px;
@@ -911,12 +925,16 @@
 		margin-top: 0px;
 	}
 	.he_stars_map {
-		margin-left: 125px;
-	}
+		margin-left: 155px;
+	
+		margin-top: 0px;
+}
 	.he_evals_map {
 		font-size: 12px;
 		margin-left: 5px;
-	}
+	
+		margin-top: -1px;
+}
 	.checkoutTop_map{
 		margin: -32px 0px 0px 0px;
 	}
@@ -966,7 +984,7 @@
 		width: 738px;
 	}
 	.he_details_map {
-		width: 215px;
+		width: 388px;
 	}
 	.he_dist_time {
         margin-top: 11px;
