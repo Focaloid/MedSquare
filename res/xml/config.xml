@@ -45,7 +45,7 @@
       <preference name="InAppBrowserStorageEnabled" value="true" />
       <preference name="disallowOverscroll" value="true" />
     -->
-    
+    <gap:splash src="splash.png"/>
     <gap:splash src="res/drawable-xhdpi/splash.png" platform="ios" density="xhdpi"/>
 	<gap:splash src="res/drawable-hdpi/splash.png"  gap:platform="ios" gap:density="hdpi"/>
 	<gap:splash src="res/drawable-mdpi/splash.png"  gap:platform="ios" gap:density="mdpi"/>
