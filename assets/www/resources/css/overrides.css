@@ -417,8 +417,8 @@ color: #cad0d1;
 .dates{font-size: 10px;right: 5px;}
 .messages1 .x-tabbar.x-docked-top .x-tab{background-color: #F0F0F0 !important;width: 50%;color: #000 !important;border-radius: 0px;font-size: 15px;margin-right: 3px;}
 .messages1 .x-tabbar-dark.x-docked-top .x-tab-active{background-color: #1ABC9C !important;color: #FFF !important;}
-.friendsMessageList{height: 50%;z-index: 3000;position: relative !important;width: 100%;}
-.friendsMessageListTop{height: 50%;z-index: 3000;position: relative !important;width: 100%;}
+.friendsMessageList{height: 55%;z-index: 3000;position: relative !important;width: 100%;}
+.friendsMessageListTop{height: 45%;z-index: 3000;position: relative !important;width: 100%;}
 .friendsMessageList .x-list-inner{padding:0px}
 .friendsMessageListTop .x-list-inner{padding:0px}
 .lblFriendsMessage{margin-bottom: 10px;font-size: 13px;font-weight: bold;background-color: #F0EBEB;padding-left: 14px;padding-top: 3px;padding-bottom: 3px;}
@@ -426,7 +426,7 @@ color: #cad0d1;
 .contactMsg {width: 60%;float: left;margin-left: 10px;font-size: 13px;color: #000;margin-top: -5px;font-weight:bold;}
 .msg{float: left;font-size: 11px;position: relative;color: #949292;background: url(../images/msgarrow.png) no-repeat left;background-size: 8px;padding-left: 14px;margin-left: 11px;clear: both;}
 .dateMsg{font-size: 10px;margin-top: -5px;color: #949292;margin-right: 5px;float: right;}
-.know{margin-top: 25px;}
+.know{margin-top: 0px;}
 .addPeople{width: 50px;float: right;color: #FFF;background-color: #1ABC9C !important;padding-left: 20px;padding-top: 2px;padding-bottom: 2px;}
 #emptyMsg{text-align: center;color:#1ABC9C;font-size:15px !important;}
 .x-list-paging .x-list-paging-msg{color:#1ABC9C !important;font-size:15px !important;}
