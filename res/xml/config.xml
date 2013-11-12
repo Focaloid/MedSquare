@@ -18,9 +18,10 @@
  under the License.
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        id        = "io.cordova.helloCordova"
-        version   = "2.0.0">
-    <name>Hello Cordova</name>
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.MedSquare"
+        version   = "1.0.0">
+    <name>MedSquare</name>
 	<preference name="orientation" value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
 	<!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
     <content src="index.html" />
