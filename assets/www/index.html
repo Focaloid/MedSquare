@@ -62,6 +62,9 @@ m=b.theme;b=b.path}if(h){if(!k(h)||k(exclude))continue;d.theme={name:m||"Default
 			navigator.splashscreen.show();
 			// Register the event listener
 			document.addEventListener("backbutton", onBackKeyDown, false);
+			  setTimeout(function() {
+					navigator.splashscreen.hide();
+				}, 2000);
 		}
 
 		function onBackKeyDown() {
