@@ -2,6 +2,9 @@
 
 .buttonpanel {
     float: left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 .menubutton {
 	width: 130px;
@@ -99,7 +102,7 @@
 }
 
 .medsquare_main .x-scroll-scroller {
-	height: 625px !important;
+	height: 350px !important;
 }
 
 .bottompanel {
@@ -167,16 +170,31 @@
 	background-size: 27px !important;
 }
 
+
+#mainbuttonbox {
+	height:100%;
+}
+.medsquare_main .x-list-normal .x-list-item.x-list-item-tpl {
+	width: 130px;
+	background: #ecf0f1;
+	border: 0;
+	border-radius: 0;
+	margin-top: 20px;
+	font-size: 15px;
+	float:left;
+	padding-top: 21px;
+	height: 60px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+
+
 @media all and (max-width: 315px) {
 	.buttonpanel {
-		left: 50%;
-		margin-left: -75px;
-		height: 560px;
-		float: left;
-		margin-bottom: 150px;
+		left: 22%;
 	}
 	.menubutton {
-		margin-left: 7px;
 	}
 	.search_top_panel_main {
 	}
@@ -211,103 +229,18 @@
 	.he_details_sugg {
 		width: 175px;
 	}
+	#mainbuttonbox {
+		height:100%;
+	}
 }
 
 @media all and (min-width: 315px) and (max-width: 355px) {
 	.buttonpanel {
-		left: 50%;
-		margin-left: -159px;
+    left: 6%;
 	}
 	.menubutton {
-		margin-left: 21px;
 	}
-	.second {
-		margin-top: -60px;
-		margin-left: 168px;
-	}
-}
-
-@media all and (min-width: 355px) and (max-width: 395px) {
-	.buttonpanel {
-		left: 50%;
-		margin-left: -163px;
-	}
-	.menubutton {
-		margin-left: 21px;
-	}
-	.second {
-		margin-top: -60px;
-		margin-left: 170px;
-	}
-}
-
-@media all and (min-width: 395px) and (max-width: 475px) {
-	.buttonpanel {
-		left: 50%;
-		margin-left: -163px;
-	}
-	.menubutton {
-		margin-left: 21px;
-	}
-	.second {
-		margin-top: -60px;
-		margin-left: 168px;
-	}
-}
-
-@media all and (min-width: 475px) and (max-width: 715px) {
-	.buttonpanel {
-		left: 50%;
-		margin-left: -247px;
-    }
-	.menubutton {
-	    margin-left: 32px;
-	}
-	.second2 {
-	    margin-top: -60px;
-		
-	    margin-left: 180px;
-	}
-	.third {
-	    margin-top: -60px;
-		
-	    margin-left: 328px;
-	}
-	.secondmiddle {
-		margin-left: 180px;
 	
-		margin-top: -60px;
-}
-	
-}
-
-@media all and (min-width: 716px) {
-	.buttonpanel {
-		left: 50%;
-		margin-left: -247px;
-    }
-	.menubutton {
-	    margin-left: 32px;
-	}
-	.second2 {
-	    margin-top: -60px;
-		
-	    margin-left: 180px;
-	}
-	.third {
-	    margin-top: -60px;
-		
-	    margin-left: 328px;
-	}
-	.secondmiddle {
-		margin-left: 180px;
-	
-		margin-top: -60px;
-}
-}
-
-@media all and (min-width: 315px) and (max-width: 355px) {
-    
 	.search_top_panel_main {
 	}
 	.search_main {
@@ -340,10 +273,21 @@
 	.he_details_sugg {
 		width: 240px;
 	}
+	
+	#mainbuttonbox {
+		height:100%;
+	}
 }
 
 @media all and (min-width: 355px) and (max-width: 395px) {
-    
+	.buttonpanel {
+    left: 10%;
+	
+    max-height: 335px;
+	}
+	.menubutton {
+	}
+	
 	.search_top_panel_main {
 	}
 	.search_main {
@@ -376,10 +320,18 @@
 	.he_details_sugg {
 		width: 280px;
 	}
+	#mainbuttonbox {
+		height:100%;
+	}
 }
 
 @media all and (min-width: 395px) and (max-width: 475px) {
-    
+	.buttonpanel {
+    left: 14%;
+	}
+	.menubutton {
+	}
+	
 	.search_top_panel_main {
 	}
 	.search_main {
@@ -412,7 +364,33 @@
 	.he_details_sugg {
 		width: 320px;
 	}
+	#mainbuttonbox {
+		height:100%;
+	}
 }
+
+@media all and (min-width: 475px) and (max-width: 715px) {
+	.buttonpanel {
+		left: 50%;
+		width: 450px;
+		margin-left: -218px;
+	}
+	.menubutton {
+	}
+	#mainbuttonbox {
+		height:100%;
+	}
+	
+}
+
+@media all and (min-width: 716px) {
+	.buttonpanel {
+    left: 50%;  width: 450px;  margin-left: -218px;
+	}
+	.menubutton {
+	}
+}
+
 
 @media all and (min-width: 475px) and (max-width: 635px) {
     
@@ -466,7 +444,8 @@
 		margin-top: -14px;
 		margin-bottom: 12px;
 		margin-left: 26px;
-	}
+	
+}
 	.closesearch_main {
 		float: right;
 		margin-top: -34px;
@@ -487,35 +466,40 @@
 @media all and (min-width: 715px) and (max-width: 767px) {
     
 	.search_top_panel_main {
+    height: 44px !important;
 	}
 	.search_main {
-		max-width: 675px;
+		max-width: 320px;
 	}
 	.searchoptions_main {
-		margin-left: 675px;
+		margin-left: 320px;
 	}
 	.insurance_only_checkbox_main {
-		margin-left: 7px;
-	}
+		margin-left: 365px;
+	
+		margin-top: -23px;
+}
 	.insurance_only_check_main {
 		margin-top: -14px;
 		margin-bottom: 12px;
 		margin-left: 26px;
-	}
+	
+		margin-left: 385px;
+}
 	.closesearch_main {
 		float: right;
 		margin-top: -34px;
 	}
 	
 	.suggestpop {
-		width: 712px;
+		width: 357px;
 	}
 	#he_logo_sugg {
 		width: 55px;
 		height: 40px;
 	}
 	.he_details_sugg {
-		width: 640px;
+		width: 285px;
 	}
 }
 
@@ -528,11 +512,11 @@
 		margin-left: -350px;
 	}
 	.search_main {
-		max-width: 656px;
+		max-width: 327px;
 	}
 	.searchoptions_main {
 		margin-top: -33px;
-		margin-left: 655px;
+		margin-left: 326px;
 	}
 	.insurance_only_checkbox_main {
 		margin-left: 370px;
@@ -549,21 +533,26 @@
 	}
 	
 	.suggestpop {
-		width: 692px;
+		width: 363px;
 	}
 	.he_details_sugg {
-		width: 620px;
+		width: 291px;
+	}
+	.buttonpanel  {
+		width: 480px;
+		left:50%;
+		margin-left: -240px;
 	}
 }
 
 @media all and (max-width: 767px) {
 	.search_top_panel_main {
-		height: 44px;
-		margin-bottom: 25px;
+		height: 76px;
+		margin-bottom: 0px;
 	}
 	.insurance_only_check_main {
 		margin-top: -15px;
 		width: 160px;
-		color: #000;
+		color: #fff;
 	}
 }

@@ -38,3 +38,28 @@
 .friendsList .x-scroll-bar.x-scroll-bar-y {
 	background:#1ABC9C !important;
 }
+
+
+.messagetoallcontainer{
+    width: 360px;
+    left: 50%;
+    margin-left: -180px;
+}
+.messagetoallhead{
+    text-align: center;
+    margin-top: 5px;
+    color: #00abe7;
+    font-size: 16px;
+}
+.messagetoallinfo{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+#sendbutton_messagetoall {
+	margin-top: 55px;
+}
+.messagetoallbox .x-field-input .x-clear-icon {
+background-color: #ecf0f1;
+height: 90px;
+margin-top: -45px;
+}

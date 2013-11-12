@@ -140,9 +140,12 @@
 .he_distTime {
     background: url(../images/loc_small.png) no-repeat left;
     padding-left: 14px;
-    margin-left: 5px;
     background-size: 10px;
     white-space: nowrap;
+    float: left;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 8px;
 }
 .he_details_main .he_distTime {
     text-decoration:underline;
@@ -156,11 +159,18 @@
     background-size: 12px;
 }
 
+.detail_stars {
+    clear: both;
+    margin-left: 0px !important;
+    margin-top: 5px !important;
+}
+.detail_evals {
+    margin-top: 5px !important;
+}
 .he_stars {
     float: left;
-    clear: both;
+    margin-left: 20px;
     margin-top: 5px;
-    margin-right: 15px;
 }
 .staractive.star{
     float: left;
@@ -181,7 +191,8 @@
 .he_evals {
     float: left;
     font-size: 12px;
-    margin-top: 3px;
+    margin-left: 20px;
+    margin-top: 2px;
 }
 .he_queueTime {
     float: left;
@@ -199,20 +210,19 @@
     float: left;
     font-size: 12px;
     margin-top: 8px;
-    margin-right: 20px;
 }
 .he_onlineCount {
     float: left;
     font-size: 12px;
-    margin-top: 6px;
     height: 20px;
     padding-top: 2px;
     font-weight: bold;
+    clear: both;
 }
 
 #online1 {
     float: left;
-    width: 15px;
+    width: 14px;
     margin-right: 5px;
 }
 #online3 {
@@ -279,7 +289,7 @@
     .result {
     }
     .he_details {
-        width: 148px;
+        width: 168px;
     }
 	.filter_holder {
 		right: 0px;
@@ -295,9 +305,9 @@
 		line-height: 13px;
 	
 		margin-left: -55px;
-}
+	}
 	.he_stars {
-		margin-left: -54px;
+		margin-left: 0px;
 	}
 	.he_queueTime {
 		margin-left: -54px;
@@ -312,17 +322,28 @@
 		line-height: 19px;
 	}
 	.he_onlineCount {
-		margin-left: 104px;
-		margin-top: -30px;
 		font-size: 10px;
-	}
+	
+		margin-left: -54px;
+		width: 50px;
+		margin-bottom: 8px;
+}
+	.he_distTime {
+		font-size: 10px;
+		margin-left: 4px;
+	
+		width: 95px;
+		text-overflow: ellipsis;
+		display: inline-block;
+}
 	#online1 {
-    margin-left: 10px;
-		
+		 margin-left: 10px;	
 	}
 	.he_evals {
 		font-size:10px
-	}
+	;
+		margin-left: 5px;
+}
 	.checkoutTop_he {
 		margin: -28px 0px 0px 0px;
 		width: 34px;
@@ -375,13 +396,16 @@
     	font-size: 11px;
 	}
 	.he_distTime {
-		position: absolute;
-		margin-left: -54px;
-		margin-top: 2px;
-	}
+	
+    font-size: 11px;
+    
+    margin-left: 15px;
+}
 	.he_stars {
-		margin-left: 82px;
-	}
+    margin-top: 2px;
+	
+    margin-left: 20px;
+}
 	.he_queueTime {
 		margin-left: -54px;
 		font-size: 10px;
@@ -395,11 +419,13 @@
 		line-height: 17px;
 	}
 	.he_onlineCount {
-		margin-left: 95px;
-		margin-top: -17px;
+		margin-left: -56px;
 		font-size: 11px;
 		line-height: 16px;
-	}
+	
+		clear: both;
+		margin-top: 0px;
+}
 	#online5 {
 		width: 22px;
 	}
@@ -410,7 +436,11 @@
 	}
 	.he_evals {
 		font-size: 11px;
-	}
+	
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-left: 20px;
+}
 	.checkoutTop_he {
 		margin: -24px 0px 0px 0px;
 		width: 34px;
@@ -461,8 +491,10 @@
     font-size: 11px;
 	}
 	.he_stars {
-		margin-left: 85px;
-	}
+    margin-top: 10px;
+	
+    margin-left: 20px;
+}
 	.he_queueTime {
 		margin-left: -54px;
 		padding-left: 18px;
@@ -475,11 +507,12 @@
 		line-height: 16px;
 	}
 	.he_onlineCount {
-		margin-left: 36px;
-		margin-top: 5px;
 		font-size: 11px;
-		line-height: 16px;
-	}
+		line-height: 15px;
+	
+		clear: both;
+		margin-left: -53px;
+}
 	#online5 {
 		width: 24px;
 	}
@@ -490,12 +523,15 @@
 	}
 	.he_evals {
 		font-size: 11px;
-	}
+	
+		margin-top: 8px;
+		margin-left: 15px;
+}
 	.he_distTime {
-		position: absolute;
-		margin-left: -54px;
-		margin-top: 2px;
-	}
+    font-size: 11px;
+	
+    margin-left: 15px;
+}
 	.checkoutTop_he {
 		margin: -31px 0px 0px 0px;
 		width: 34px;
@@ -543,9 +579,9 @@
 	.he_info {
 	}
 	.he_stars {
-		margin-left: 110px;
+    margin-top: 9px;
 	
-		margin-right: 20px;
+    margin-left: 20px;
 }
 	.he_queueTime {
 		margin-left: -54px;
@@ -555,9 +591,10 @@
 	.he_dateTime {
 	}
 	.he_onlineCount {
-    line-height: 13px;
+		line-height: 14px;
+		margin-left: -52px;
 	
-    margin-left: 38px;
+		clear: both;
 }
 	#online5 {
 		width: 24px;
@@ -569,12 +606,16 @@
 	}
 	.he_evals {
 		font-size: 11px;
-	}
+	
+		margin-top: 8px;
+		margin-left: 20px;
+}
 	.he_distTime {
-		position: absolute;
-		margin-left: -54px;
-		margin-top: 2px;
-	}
+		font-size: 12px;
+	
+		margin-top: 5px;
+		margin-left: 20px;
+}
 	.checkoutTop_he {
 		margin: -28px 0px 0px 0px;
 		width: 34px;

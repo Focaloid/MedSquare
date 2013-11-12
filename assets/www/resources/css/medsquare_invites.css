@@ -79,6 +79,17 @@
 	padding: 0;
 }
 
+.morecommetslist {
+	float:left;
+	width:100%;
+	position: absolute;
+	height: 100%;
+	top: 95px;
+}
+.morecommetslist .x-html {
+	padding: 0;
+}
+
 .InviteButton {
 	width: 70px;
 	float: right;

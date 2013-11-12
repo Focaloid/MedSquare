@@ -18,7 +18,7 @@
 }
 .friendEval {
     float: left;
-    border-bottom: 2px solid #f0f0f0;
+    border-bottom: 2px solid #A8A6A6;
 }
 .evalhename {
     font-size: 14px;
@@ -83,11 +83,11 @@
     margin-bottom: 5px;
 }
 .checkinoutsintime{
-    font-size: 12px;
+    font-size: 11px;
     float: left;
 }
 .checkinoutsouttime{
-    font-size: 12px;
+    font-size: 11px;
     float: left;
     margin-left: 10px;
 }
