@@ -22,6 +22,9 @@
         id        = "com.phonegap.MedSquare"
         version   = "1.0.0">
     <name>MedSquare</name>
+	
+	<feature name="http://api.phonegap.com/1.0/device" />
+	
 	<preference name="orientation" value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
 	<!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
     <content src="index.html" />
