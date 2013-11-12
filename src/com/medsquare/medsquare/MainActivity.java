@@ -13,7 +13,7 @@ public class MainActivity extends DroidGap {
 		
 		super.setIntegerProperty("splashscreen",R.drawable.splash);
 		
-        super.loadUrl("file:///android_asset/www/index.html");
+        super.loadUrl("file:///android_asset/www/index.html",5000);
     }
 
 
