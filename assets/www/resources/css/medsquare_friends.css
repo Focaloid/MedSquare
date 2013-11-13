@@ -12,6 +12,12 @@
 	width: 100%;
 	padding: 5px;
 }
+#friends .friendslistItem {
+	float: left;
+	width: 100%;
+	padding: 5px;
+	border-bottom: 1px solid #DBD6D6;
+}
 .listeven {
 	background: #f2f2f2 !important;
 }
