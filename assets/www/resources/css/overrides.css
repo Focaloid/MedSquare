@@ -521,10 +521,11 @@ color: #cad0d1;
     border: 0;
     color: #fff;
     font-size: 12px;
-    margin-top: 57px;
+    /* margin-top: 57px; */
     left: 50%;
     margin-left: -275px;
     width: 275px;
+    display: none;
 }
 
 .feedbackcontainer {
