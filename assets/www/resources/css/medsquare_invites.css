@@ -79,12 +79,16 @@
 	padding: 0;
 }
 
+#fbFriends .x-list-normal .x-list-item.x-list-item-tpl,#fbFriends .x-list-normal .x-list-item .x-dock-horizontal {
+	float:left;
+	padding: 8px 5px 0px !important;
+}
+
 .morecommetslist {
 	float:left;
 	width:100%;
 	position: absolute;
 	height: 100%;
-	top: 95px;
 }
 .morecommetslist .x-html {
 	padding: 0;
@@ -102,7 +106,6 @@
 .friendlisting {
 	float: left;
 	width: 100%;
-	padding-bottom: 5px;
 }
 
 .emailinvitecontainer {
@@ -120,6 +123,17 @@
 	border: 1px solid #fff;
 	border-radius: 4px;
 	color: #fff;
+}
+
+.invite_all {  
+	float: right;  
+	color: #FFF;  
+    background: #1ABC9C !important;    
+    border: 0;  
+    font-size: 14px;
+    border-radius: 0;
+    margin-right: 3px;
+  	margin-top: -34px;
 }
 
 @media all and (max-width: 315px) {

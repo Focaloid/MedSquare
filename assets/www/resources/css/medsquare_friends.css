@@ -65,7 +65,12 @@
 	margin-top: 55px;
 }
 .messagetoallbox .x-field-input .x-clear-icon {
-background-color: #ecf0f1;
-height: 90px;
-margin-top: -45px;
+	background-color: #ecf0f1;
+	height: 90px;
+	margin-top: -45px;
+}
+
+.friendname {
+	width: 100%;
+	padding: 5px 10px 0px;
 }

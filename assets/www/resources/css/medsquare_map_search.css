@@ -135,9 +135,9 @@
 
 .feedback {
     border: 0;
-    background: transparent url(../images/feedback.png) no-repeat center;
-    background-position: center 2px;
-    background-size: 44px;
+    background: transparent url(../images/feedback.png) no-repeat center !important;
+    background-position: center 2px !important;
+    background-size: 44px !important;
     font-size: 11px;
     width: 70px;
     padding: 38px 0px 0px;
@@ -435,7 +435,9 @@
 	}
 	.he_info_map{
 		font-size: 10px;
-	}
+	
+		height: 28px;
+}
 	.he_distTime_map {
     font-size: 10px;
 	
@@ -473,7 +475,7 @@
 	}
 	.feedback {
 		margin-top: -10px;
-		background-size: 30px;
+		background-size: 30px !important;
 		padding: 25px 0px 0px;
 	}
 	.checkoutTop_map{
