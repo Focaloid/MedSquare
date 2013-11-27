@@ -492,7 +492,7 @@
     margin-left: 10px;
 	-webkit-transition: max-height  .2s ease;
     transition: max-height .2s ease;
-    z-index: 2;
+    z-index: 5;
 }
 
 @media all and (max-width: 315px) {
